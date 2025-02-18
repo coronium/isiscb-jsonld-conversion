@@ -1,0 +1,47 @@
+# IsisCB JSON-LD Conversion Configuration
+
+environment:
+  # Can be 'development', 'testing', or 'production'
+  current: development
+
+paths:
+  development:
+    raw: data/raw/samples/
+    processed: data/processed/
+    schemas: src/schemas/
+  
+  production:
+    # These will be overridden by environment variables in production
+    raw: ${ISISCB_RAW_DATA_PATH}
+    processed: ${ISISCB_PROCESSED_DATA_PATH}
+    archive: ${ISISCB_ARCHIVE_PATH}
+    
+  # Path for storing conversion logs and metadata
+  logs: logs/
+  
+data:
+  batch_size: 1000
+  archive_original: true
+  # Track which records have been processed
+  tracking_file: data/processing_metadata.json
+  
+logging:
+  level: INFO
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  file: logs/conversion.log
+
+# Version tracking for data files
+versioning:
+  track_modifications: true
+  metadata_format: json
+  backup_original: true
+
+vocabularies:
+  dublin_core: http://purl.org/dc/terms/
+  skos: http://www.w3.org/2004/02/skos/core#
+  schema: http://schema.org/
+  isiscb: http://data.isiscb.org/vocabulary/
+
+validation:
+  strict_mode: true
+  validate_external_urls: true
