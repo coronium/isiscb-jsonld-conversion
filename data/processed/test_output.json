@@ -1,0 +1,2990 @@
+[
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB262293571",
+    "isiscb:recordID": "CBB262293571",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Love Is a Problem of Knowledge",
+    "schema:name": "Love Is a Problem of Knowledge"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB550080731",
+    "isiscb:recordID": "CBB550080731",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "The Triumph of Theriac: Print, Apothecary Publications, and the Commodification of Ancient Antidotes (1497–1800)",
+    "schema:name": "The Triumph of Theriac: Print, Apothecary Publications, and the Commodification of Ancient Antidotes (1497–1800)",
+    "isiscb:Title": "The Triumph of Theriac: Print, Apothecary Publications, and the Commodification of Ancient Antidotes (1497–1800)",
+    "isiscb:mainTitle": "The Triumph of Theriac",
+    "isiscb:subtitle": "Print, Apothecary Publications, and the Commodification of Ancient Antidotes (1497–1800)"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB317984823",
+    "isiscb:recordID": "CBB317984823",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Galileo’s Two New Sciences as a Model of Reading Practice",
+    "schema:name": "Galileo’s Two New Sciences as a Model of Reading Practice"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB123318800",
+    "isiscb:recordID": "CBB123318800",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "Frontier of Professionals:The Vision of American Advisors That Supported Hokkaido Development in the Early Meiji Period",
+    "schema:name": "Frontier of Professionals:The Vision of American Advisors That Supported Hokkaido Development in the Early Meiji Period"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB234311668",
+    "isiscb:recordID": "CBB234311668",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Defects in Doubt Manufacturing: The Trajectory of a Pro-industrial Argument in the Struggle for the Definition of Carcinogenic Substances",
+    "schema:name": "Defects in Doubt Manufacturing: The Trajectory of a Pro-industrial Argument in the Struggle for the Definition of Carcinogenic Substances",
+    "isiscb:Title": "Defects in Doubt Manufacturing: The Trajectory of a Pro-industrial Argument in the Struggle for the Definition of Carcinogenic Substances",
+    "isiscb:mainTitle": "Defects in Doubt Manufacturing",
+    "isiscb:subtitle": "The Trajectory of a Pro-industrial Argument in the Struggle for the Definition of Carcinogenic Substances"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB704973598",
+    "isiscb:recordID": "CBB704973598",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Economizing Socialist Aid: China's Failed Surgical Plant in Algeria, 1973–80",
+    "schema:name": "Economizing Socialist Aid: China's Failed Surgical Plant in Algeria, 1973–80",
+    "isiscb:Title": "Economizing Socialist Aid: China's Failed Surgical Plant in Algeria, 1973–80",
+    "isiscb:mainTitle": "Economizing Socialist Aid",
+    "isiscb:subtitle": "China's Failed Surgical Plant in Algeria, 1973–80"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB176284257",
+    "isiscb:recordID": "CBB176284257",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "David Gregory's manuscript ‘Isaaci Neutoni Methodus fluxionum’ (1694): A study on the early publication of Newton's discoveries on calculus",
+    "schema:name": "David Gregory's manuscript ‘Isaaci Neutoni Methodus fluxionum’ (1694): A study on the early publication of Newton's discoveries on calculus",
+    "isiscb:Title": "David Gregory's manuscript ‘Isaaci Neutoni Methodus fluxionum’ (1694): A study on the early publication of Newton's discoveries on calculus",
+    "isiscb:mainTitle": "David Gregory's manuscript ‘Isaaci Neutoni Methodus fluxionum’ (1694)",
+    "isiscb:subtitle": "A study on the early publication of Newton's discoveries on calculus"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB021562249",
+    "isiscb:recordID": "CBB021562249",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "The <i>Lotus Sutra</i> and Evolution: Hayata Bunzō's Theory of Life",
+    "schema:name": "The <i>Lotus Sutra</i> and Evolution: Hayata Bunzō's Theory of Life",
+    "isiscb:Title": "The <i>Lotus Sutra</i> and Evolution: Hayata Bunzō's Theory of Life",
+    "isiscb:mainTitle": "The <i>Lotus Sutra</i> and Evolution",
+    "isiscb:subtitle": "Hayata Bunzō's Theory of Life"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB258494624",
+    "isiscb:recordID": "CBB258494624",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Change in the graphics of journal articles in the life sciences field: Analysis of figures and tables in the journal “Cell”",
+    "schema:name": "Change in the graphics of journal articles in the life sciences field: Analysis of figures and tables in the journal “Cell”",
+    "isiscb:Title": "Change in the graphics of journal articles in the life sciences field: Analysis of figures and tables in the journal “Cell”",
+    "isiscb:mainTitle": "Change in the graphics of journal articles in the life sciences field",
+    "isiscb:subtitle": "Analysis of figures and tables in the journal “Cell”"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB139095210",
+    "isiscb:recordID": "CBB139095210",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Technology and Subaltern Knowledge at the Catalan Olive Oil Museum",
+    "schema:name": "Technology and Subaltern Knowledge at the Catalan Olive Oil Museum"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB198236619",
+    "isiscb:recordID": "CBB198236619",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "The 68th Annual Meeting of the History of Science Society of Japan, hosted by Kobe University, was held on-line from 21 to 23 May 2021. The following presentations were made and discussed.",
+    "schema:name": "The 68th Annual Meeting of the History of Science Society of Japan, hosted by Kobe University, was held on-line from 21 to 23 May 2021. The following presentations were made and discussed."
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB571637573",
+    "isiscb:recordID": "CBB571637573",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Finding the key to solving problems in the hepatitis kingdom: A Study on the Development of Hepatitis B Vaccine by Kim Chung Young in the 1960-70s",
+    "schema:name": "Finding the key to solving problems in the hepatitis kingdom: A Study on the Development of Hepatitis B Vaccine by Kim Chung Young in the 1960-70s",
+    "isiscb:Title": "Finding the key to solving problems in the hepatitis kingdom: A Study on the Development of Hepatitis B Vaccine by Kim Chung Young in the 1960-70s",
+    "isiscb:mainTitle": "Finding the key to solving problems in the hepatitis kingdom",
+    "isiscb:subtitle": "A Study on the Development of Hepatitis B Vaccine by Kim Chung Young in the 1960-70s"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB385360111",
+    "isiscb:recordID": "CBB385360111",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "The Cold War, the Arab world, and West Germany’s ‘Mediterranean moment’, 1967–73",
+    "schema:name": "The Cold War, the Arab world, and West Germany’s ‘Mediterranean moment’, 1967–73"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB258919491",
+    "isiscb:recordID": "CBB258919491",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Human genetics after the bomb: Archives, clinics, proving grounds and board rooms",
+    "schema:name": "Human genetics after the bomb: Archives, clinics, proving grounds and board rooms",
+    "isiscb:Title": "Human genetics after the bomb: Archives, clinics, proving grounds and board rooms",
+    "isiscb:mainTitle": "Human genetics after the bomb",
+    "isiscb:subtitle": "Archives, clinics, proving grounds and board rooms"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB716859257",
+    "isiscb:recordID": "CBB716859257",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "“Invisible” Pollution? Knowledge Gridlock in Regulatory Science on Electronics Toxics",
+    "schema:name": "“Invisible” Pollution? Knowledge Gridlock in Regulatory Science on Electronics Toxics"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB827813946",
+    "isiscb:recordID": "CBB827813946",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Trattato di cosmetica della Signora Chiara da Correggio",
+    "schema:name": "Trattato di cosmetica della Signora Chiara da Correggio"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB112178854",
+    "isiscb:recordID": "CBB112178854",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "‘The very term mensuration sounds engineer-like’: measurement and engineering authority in nineteenth-century river management",
+    "schema:name": "‘The very term mensuration sounds engineer-like’: measurement and engineering authority in nineteenth-century river management",
+    "isiscb:Title": "‘The very term mensuration sounds engineer-like’: measurement and engineering authority in nineteenth-century river management",
+    "isiscb:mainTitle": "‘The very term mensuration sounds engineer-like’",
+    "isiscb:subtitle": "measurement and engineering authority in nineteenth-century river management"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB229594511",
+    "isiscb:recordID": "CBB229594511",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "The periodic table and the turn to practice",
+    "schema:name": "The periodic table and the turn to practice"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB969322306",
+    "isiscb:recordID": "CBB969322306",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "The Draper-Maynard Sporting Goods Company of Plymouth, New Hampshire, 1840-1937   (Photo Essay)",
+    "schema:name": "The Draper-Maynard Sporting Goods Company of Plymouth, New Hampshire, 1840-1937   (Photo Essay)"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB125130043",
+    "isiscb:recordID": "CBB125130043",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Mental observation wards: An alternative provision for emergency psychiatric care in England in the first half of the twentieth century",
+    "schema:name": "Mental observation wards: An alternative provision for emergency psychiatric care in England in the first half of the twentieth century",
+    "isiscb:Title": "Mental observation wards: An alternative provision for emergency psychiatric care in England in the first half of the twentieth century",
+    "isiscb:mainTitle": "Mental observation wards",
+    "isiscb:subtitle": "An alternative provision for emergency psychiatric care in England in the first half of the twentieth century"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB992429858",
+    "isiscb:recordID": "CBB992429858",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Austerity: When it works and when it doesn't\"",
+    "schema:name": "Review of \"Austerity: When it works and when it doesn't\"",
+    "isiscb:Title": "Review of \"Austerity: When it works and when it doesn't\"",
+    "isiscb:mainTitle": "Review of \"Austerity",
+    "isiscb:subtitle": "When it works and when it doesn't\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB244292497",
+    "isiscb:recordID": "CBB244292497",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"The Chemical Age: How Chemists Fought Famine and Disease, Killed Millions, and Changed Our Relationship with the Earth\"",
+    "schema:name": "Review of \"The Chemical Age: How Chemists Fought Famine and Disease, Killed Millions, and Changed Our Relationship with the Earth\"",
+    "isiscb:Title": "Review of \"The Chemical Age: How Chemists Fought Famine and Disease, Killed Millions, and Changed Our Relationship with the Earth\"",
+    "isiscb:mainTitle": "Review of \"The Chemical Age",
+    "isiscb:subtitle": "How Chemists Fought Famine and Disease, Killed Millions, and Changed Our Relationship with the Earth\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB092202089",
+    "isiscb:recordID": "CBB092202089",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"The Enchantments of Mammon: How Capitalism Became the Religion of Modernity\"",
+    "schema:name": "Review of \"The Enchantments of Mammon: How Capitalism Became the Religion of Modernity\"",
+    "isiscb:Title": "Review of \"The Enchantments of Mammon: How Capitalism Became the Religion of Modernity\"",
+    "isiscb:mainTitle": "Review of \"The Enchantments of Mammon",
+    "isiscb:subtitle": "How Capitalism Became the Religion of Modernity\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB476336143",
+    "isiscb:recordID": "CBB476336143",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"The Anecdotal Narration and Encyclopedic Thought of Pliny the Elder’s Naturalis Historia\"",
+    "schema:name": "Review of \"The Anecdotal Narration and Encyclopedic Thought of Pliny the Elder’s Naturalis Historia\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB864633157",
+    "isiscb:recordID": "CBB864633157",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Radical Medicine: The International Origins of Socialized Health Care in Canada\"",
+    "schema:name": "Review of \"Radical Medicine: The International Origins of Socialized Health Care in Canada\"",
+    "isiscb:Title": "Review of \"Radical Medicine: The International Origins of Socialized Health Care in Canada\"",
+    "isiscb:mainTitle": "Review of \"Radical Medicine",
+    "isiscb:subtitle": "The International Origins of Socialized Health Care in Canada\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB048990352",
+    "isiscb:recordID": "CBB048990352",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Sweet Fuel: A Political and Environmental History of Brazilian Ethanol\"",
+    "schema:name": "Review of \"Sweet Fuel: A Political and Environmental History of Brazilian Ethanol\"",
+    "isiscb:Title": "Review of \"Sweet Fuel: A Political and Environmental History of Brazilian Ethanol\"",
+    "isiscb:mainTitle": "Review of \"Sweet Fuel",
+    "isiscb:subtitle": "A Political and Environmental History of Brazilian Ethanol\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB973295853",
+    "isiscb:recordID": "CBB973295853",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"The Georgia Peach: Culture, Agriculture, and Environment in the American South\"",
+    "schema:name": "Review of \"The Georgia Peach: Culture, Agriculture, and Environment in the American South\"",
+    "isiscb:Title": "Review of \"The Georgia Peach: Culture, Agriculture, and Environment in the American South\"",
+    "isiscb:mainTitle": "Review of \"The Georgia Peach",
+    "isiscb:subtitle": "Culture, Agriculture, and Environment in the American South\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB148241607",
+    "isiscb:recordID": "CBB148241607",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Sculptural seeing : Relief, optics, and the rise of perspective in medieval Italy\"",
+    "schema:name": "Review of \"Sculptural seeing : Relief, optics, and the rise of perspective in medieval Italy\"",
+    "isiscb:Title": "Review of \"Sculptural seeing : Relief, optics, and the rise of perspective in medieval Italy\"",
+    "isiscb:mainTitle": "Review of \"Sculptural seeing",
+    "isiscb:subtitle": "Relief, optics, and the rise of perspective in medieval Italy\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB433820062",
+    "isiscb:recordID": "CBB433820062",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Possessing Polynesians: The Science of Settler Colonial Whiteness in Hawai`i and Oceania\"",
+    "schema:name": "Review of \"Possessing Polynesians: The Science of Settler Colonial Whiteness in Hawai`i and Oceania\"",
+    "isiscb:Title": "Review of \"Possessing Polynesians: The Science of Settler Colonial Whiteness in Hawai`i and Oceania\"",
+    "isiscb:mainTitle": "Review of \"Possessing Polynesians",
+    "isiscb:subtitle": "The Science of Settler Colonial Whiteness in Hawai`i and Oceania\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB130840884",
+    "isiscb:recordID": "CBB130840884",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Individuals Across the Sciences\"",
+    "schema:name": "Review of \"Individuals Across the Sciences\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB710834440",
+    "isiscb:recordID": "CBB710834440",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Renaissance fun : the machines behind the scenes\"",
+    "schema:name": "Review of \"Renaissance fun : the machines behind the scenes\"",
+    "isiscb:Title": "Review of \"Renaissance fun : the machines behind the scenes\"",
+    "isiscb:mainTitle": "Review of \"Renaissance fun",
+    "isiscb:subtitle": "the machines behind the scenes\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB795584728",
+    "isiscb:recordID": "CBB795584728",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Let there be Light: Engineering, Entrepreneurship and Electricity in Colonial Bengal, 1880–1945\"",
+    "schema:name": "Review of \"Let there be Light: Engineering, Entrepreneurship and Electricity in Colonial Bengal, 1880–1945\"",
+    "isiscb:Title": "Review of \"Let there be Light: Engineering, Entrepreneurship and Electricity in Colonial Bengal, 1880–1945\"",
+    "isiscb:mainTitle": "Review of \"Let there be Light",
+    "isiscb:subtitle": "Engineering, Entrepreneurship and Electricity in Colonial Bengal, 1880–1945\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB191546560",
+    "isiscb:recordID": "CBB191546560",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Geographies of embodiment in early modern England\"",
+    "schema:name": "Review of \"Geographies of embodiment in early modern England\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB123522494",
+    "isiscb:recordID": "CBB123522494",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Machines of Youth: America's Car Obsession\"",
+    "schema:name": "Review of \"Machines of Youth: America's Car Obsession\"",
+    "isiscb:Title": "Review of \"Machines of Youth: America's Car Obsession\"",
+    "isiscb:mainTitle": "Review of \"Machines of Youth",
+    "isiscb:subtitle": "America's Car Obsession\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB304880358",
+    "isiscb:recordID": "CBB304880358",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"A Contagious Cause: The American Hunt for Cancer Viruses and the Rise of Molecular Medicine\"",
+    "schema:name": "Review of \"A Contagious Cause: The American Hunt for Cancer Viruses and the Rise of Molecular Medicine\"",
+    "isiscb:Title": "Review of \"A Contagious Cause: The American Hunt for Cancer Viruses and the Rise of Molecular Medicine\"",
+    "isiscb:mainTitle": "Review of \"A Contagious Cause",
+    "isiscb:subtitle": "The American Hunt for Cancer Viruses and the Rise of Molecular Medicine\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB205581282",
+    "isiscb:recordID": "CBB205581282",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Heading Out: A History of American Camping\"",
+    "schema:name": "Review of \"Heading Out: A History of American Camping\"",
+    "isiscb:Title": "Review of \"Heading Out: A History of American Camping\"",
+    "isiscb:mainTitle": "Review of \"Heading Out",
+    "isiscb:subtitle": "A History of American Camping\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB582447237",
+    "isiscb:recordID": "CBB582447237",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "Review of \"The Los Alamos primer: The first lectures on how to build an atomic bomb. Annotated by Serber, Robert. Edited with an introduction by Rhodes, Richard\"",
+    "schema:name": "Review of \"The Los Alamos primer: The first lectures on how to build an atomic bomb. Annotated by Serber, Robert. Edited with an introduction by Rhodes, Richard\"",
+    "isiscb:Title": "Review of \"The Los Alamos primer: The first lectures on how to build an atomic bomb. Annotated by Serber, Robert. Edited with an introduction by Rhodes, Richard\"",
+    "isiscb:mainTitle": "Review of \"The Los Alamos primer",
+    "isiscb:subtitle": "The first lectures on how to build an atomic bomb. Annotated by Serber, Robert. Edited with an introduction by Rhodes, Richard\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB180349714",
+    "isiscb:recordID": "CBB180349714",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Family and Business during the Industrial Revolution\"",
+    "schema:name": "Review of \"Family and Business during the Industrial Revolution\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB736296608",
+    "isiscb:recordID": "CBB736296608",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Chemical Technology in Antiquity\"",
+    "schema:name": "Review of \"Chemical Technology in Antiquity\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB796902176",
+    "isiscb:recordID": "CBB796902176",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Post-industrial landscape scars\"",
+    "schema:name": "Review of \"Post-industrial landscape scars\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB179627017",
+    "isiscb:recordID": "CBB179627017",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Place and Nature: Essays in Russian Environmental History",
+    "schema:name": "Place and Nature: Essays in Russian Environmental History",
+    "isiscb:Title": "Place and Nature: Essays in Russian Environmental History",
+    "isiscb:mainTitle": "Place and Nature",
+    "isiscb:subtitle": "Essays in Russian Environmental History"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB700021344",
+    "isiscb:recordID": "CBB700021344",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Sight Correction: Vision and Blindness in Eighteenth-Century Britain",
+    "schema:name": "Sight Correction: Vision and Blindness in Eighteenth-Century Britain",
+    "isiscb:Title": "Sight Correction: Vision and Blindness in Eighteenth-Century Britain",
+    "isiscb:mainTitle": "Sight Correction",
+    "isiscb:subtitle": "Vision and Blindness in Eighteenth-Century Britain"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB673315821",
+    "isiscb:recordID": "CBB673315821",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Abstractions and Embodiments: New Histories of Computing and Society",
+    "schema:name": "Abstractions and Embodiments: New Histories of Computing and Society",
+    "isiscb:Title": "Abstractions and Embodiments: New Histories of Computing and Society",
+    "isiscb:mainTitle": "Abstractions and Embodiments",
+    "isiscb:subtitle": "New Histories of Computing and Society"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB010766512",
+    "isiscb:recordID": "CBB010766512",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "More: A history of the world economy from the Iron Age to the Information Age",
+    "schema:name": "More: A history of the world economy from the Iron Age to the Information Age",
+    "isiscb:Title": "More: A history of the world economy from the Iron Age to the Information Age",
+    "isiscb:mainTitle": "More",
+    "isiscb:subtitle": "A history of the world economy from the Iron Age to the Information Age"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB767549347",
+    "isiscb:recordID": "CBB767549347",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Margins of the Market: Trafficking and Capitalism across the Arabian Sea",
+    "schema:name": "Margins of the Market: Trafficking and Capitalism across the Arabian Sea",
+    "isiscb:Title": "Margins of the Market: Trafficking and Capitalism across the Arabian Sea",
+    "isiscb:mainTitle": "Margins of the Market",
+    "isiscb:subtitle": "Trafficking and Capitalism across the Arabian Sea"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB975790912",
+    "isiscb:recordID": "CBB975790912",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Die Entwicklung der medizinischen Dokumentation im Charité-Krankenhaus zu Berlin am Beispiel der psychiatrischen Krankenakten von 1866 bis 1945 ... der Medizin und der Naturwissenschaften)",
+    "schema:name": "Die Entwicklung der medizinischen Dokumentation im Charité-Krankenhaus zu Berlin am Beispiel der psychiatrischen Krankenakten von 1866 bis 1945 ... der Medizin und der Naturwissenschaften)"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB262469655",
+    "isiscb:recordID": "CBB262469655",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Collaboration in Space and the Search for Peace on Earth",
+    "schema:name": "Collaboration in Space and the Search for Peace on Earth"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB469150810",
+    "isiscb:recordID": "CBB469150810",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "Abortion in Early Modern Italy",
+    "schema:name": "Abortion in Early Modern Italy"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB103514339",
+    "isiscb:recordID": "CBB103514339",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Interpreting Kuhn: Critical Essays",
+    "schema:name": "Interpreting Kuhn: Critical Essays",
+    "isiscb:Title": "Interpreting Kuhn: Critical Essays",
+    "isiscb:mainTitle": "Interpreting Kuhn",
+    "isiscb:subtitle": "Critical Essays"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB681494072",
+    "isiscb:recordID": "CBB681494072",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Policing the Open Road: How Cars Transformed American Freedom",
+    "schema:name": "Policing the Open Road: How Cars Transformed American Freedom",
+    "isiscb:Title": "Policing the Open Road: How Cars Transformed American Freedom",
+    "isiscb:mainTitle": "Policing the Open Road",
+    "isiscb:subtitle": "How Cars Transformed American Freedom"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB203716824",
+    "isiscb:recordID": "CBB203716824",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Arms & Armour of India, Nepal & Sri Lanka: Types, Decoration and Symbolism",
+    "schema:name": "Arms & Armour of India, Nepal & Sri Lanka: Types, Decoration and Symbolism",
+    "isiscb:Title": "Arms & Armour of India, Nepal & Sri Lanka: Types, Decoration and Symbolism",
+    "isiscb:mainTitle": "Arms & Armour of India, Nepal & Sri Lanka",
+    "isiscb:subtitle": "Types, Decoration and Symbolism"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB301363009",
+    "isiscb:recordID": "CBB301363009",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Photography, Natural History and the Nineteenth-Century Museum: Exchanging Views of Empire",
+    "schema:name": "Photography, Natural History and the Nineteenth-Century Museum: Exchanging Views of Empire",
+    "isiscb:Title": "Photography, Natural History and the Nineteenth-Century Museum: Exchanging Views of Empire",
+    "isiscb:mainTitle": "Photography, Natural History and the Nineteenth-Century Museum",
+    "isiscb:subtitle": "Exchanging Views of Empire"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB990238197",
+    "isiscb:recordID": "CBB990238197",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "The Blood of the Colony: Wine and the Rise and Fall of French Algeria",
+    "schema:name": "The Blood of the Colony: Wine and the Rise and Fall of French Algeria",
+    "isiscb:Title": "The Blood of the Colony: Wine and the Rise and Fall of French Algeria",
+    "isiscb:mainTitle": "The Blood of the Colony",
+    "isiscb:subtitle": "Wine and the Rise and Fall of French Algeria"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB772732322",
+    "isiscb:recordID": "CBB772732322",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Illness and Authority: Disability in the Life and Lives of Francis of Assisi",
+    "schema:name": "Illness and Authority: Disability in the Life and Lives of Francis of Assisi",
+    "isiscb:Title": "Illness and Authority: Disability in the Life and Lives of Francis of Assisi",
+    "isiscb:mainTitle": "Illness and Authority",
+    "isiscb:subtitle": "Disability in the Life and Lives of Francis of Assisi"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB088982208",
+    "isiscb:recordID": "CBB088982208",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "At the Base of the Giant's Throat: The Past and Future of America's Great Dams",
+    "schema:name": "At the Base of the Giant's Throat: The Past and Future of America's Great Dams",
+    "isiscb:Title": "At the Base of the Giant's Throat: The Past and Future of America's Great Dams",
+    "isiscb:mainTitle": "At the Base of the Giant's Throat",
+    "isiscb:subtitle": "The Past and Future of America's Great Dams"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB189516123",
+    "isiscb:recordID": "CBB189516123",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Bodily Engagements with Film, Images, and Technology: Somavision",
+    "schema:name": "Bodily Engagements with Film, Images, and Technology: Somavision",
+    "isiscb:Title": "Bodily Engagements with Film, Images, and Technology: Somavision",
+    "isiscb:mainTitle": "Bodily Engagements with Film, Images, and Technology",
+    "isiscb:subtitle": "Somavision"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB000687388",
+    "isiscb:recordID": "CBB000687388",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Controlling Credit: Central Banking and the Planned Economy in Postwar France, 1948–1973",
+    "schema:name": "Controlling Credit: Central Banking and the Planned Economy in Postwar France, 1948–1973",
+    "isiscb:Title": "Controlling Credit: Central Banking and the Planned Economy in Postwar France, 1948–1973",
+    "isiscb:mainTitle": "Controlling Credit",
+    "isiscb:subtitle": "Central Banking and the Planned Economy in Postwar France, 1948–1973"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB626260743",
+    "isiscb:recordID": "CBB626260743",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Against the Grain: A Deep History of the Earliest States",
+    "schema:name": "Against the Grain: A Deep History of the Earliest States",
+    "isiscb:Title": "Against the Grain: A Deep History of the Earliest States",
+    "isiscb:mainTitle": "Against the Grain",
+    "isiscb:subtitle": "A Deep History of the Earliest States"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB962952461",
+    "isiscb:recordID": "CBB962952461",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "After the enlightenment: Political realism and international relations in the mid-twentieth century",
+    "schema:name": "After the enlightenment: Political realism and international relations in the mid-twentieth century",
+    "isiscb:Title": "After the enlightenment: Political realism and international relations in the mid-twentieth century",
+    "isiscb:mainTitle": "After the enlightenment",
+    "isiscb:subtitle": "Political realism and international relations in the mid-twentieth century"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB822918468",
+    "isiscb:recordID": "CBB822918468",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Surroundings: A History of Environments and Environmentalisms",
+    "schema:name": "Surroundings: A History of Environments and Environmentalisms",
+    "isiscb:Title": "Surroundings: A History of Environments and Environmentalisms",
+    "isiscb:mainTitle": "Surroundings",
+    "isiscb:subtitle": "A History of Environments and Environmentalisms"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB633959534",
+    "isiscb:recordID": "CBB633959534",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "Sonopolis: Activist Infrastructures and Sonic Citizenships in Athens",
+    "schema:name": "Sonopolis: Activist Infrastructures and Sonic Citizenships in Athens",
+    "isiscb:Title": "Sonopolis: Activist Infrastructures and Sonic Citizenships in Athens",
+    "isiscb:mainTitle": "Sonopolis",
+    "isiscb:subtitle": "Activist Infrastructures and Sonic Citizenships in Athens"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB027840169",
+    "isiscb:recordID": "CBB027840169",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "The Secrets of Indians: Native Knowers in Enlightenment Natural Histories of the Southern Americas",
+    "schema:name": "The Secrets of Indians: Native Knowers in Enlightenment Natural Histories of the Southern Americas",
+    "isiscb:Title": "The Secrets of Indians: Native Knowers in Enlightenment Natural Histories of the Southern Americas",
+    "isiscb:mainTitle": "The Secrets of Indians",
+    "isiscb:subtitle": "Native Knowers in Enlightenment Natural Histories of the Southern Americas"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB612961660",
+    "isiscb:recordID": "CBB612961660",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "‘Without Being Denounced or Humiliated’: the Purchase of Books for Religious Communities in New Spain",
+    "schema:name": "‘Without Being Denounced or Humiliated’: the Purchase of Books for Religious Communities in New Spain",
+    "isiscb:Title": "‘Without Being Denounced or Humiliated’: the Purchase of Books for Religious Communities in New Spain",
+    "isiscb:mainTitle": "‘Without Being Denounced or Humiliated’",
+    "isiscb:subtitle": "the Purchase of Books for Religious Communities in New Spain"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB229382179",
+    "isiscb:recordID": "CBB229382179",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "Rethinking 'The Two Italies': Circulation of Goods and Merchants between Venice and the 'Regno' in the Late Middle Ages",
+    "schema:name": "Rethinking 'The Two Italies': Circulation of Goods and Merchants between Venice and the 'Regno' in the Late Middle Ages",
+    "isiscb:Title": "Rethinking 'The Two Italies': Circulation of Goods and Merchants between Venice and the 'Regno' in the Late Middle Ages",
+    "isiscb:mainTitle": "Rethinking 'The Two Italies'",
+    "isiscb:subtitle": "Circulation of Goods and Merchants between Venice and the 'Regno' in the Late Middle Ages"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB772314101",
+    "isiscb:recordID": "CBB772314101",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Colecções, gabinetes, museus e jardins botânicos",
+    "schema:name": "Colecções, gabinetes, museus e jardins botânicos"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB754570053",
+    "isiscb:recordID": "CBB754570053",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "The Angle Concept and Angle Measurement in Ancient China",
+    "schema:name": "The Angle Concept and Angle Measurement in Ancient China"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB710418396",
+    "isiscb:recordID": "CBB710418396",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "The Interdependencies of Infrastructure",
+    "schema:name": "The Interdependencies of Infrastructure"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB708865550",
+    "isiscb:recordID": "CBB708865550",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Wax Artefacts in the Kunstkammer of Archduke Ferdinand II (1529-1595) at Ambras Castle",
+    "schema:name": "Wax Artefacts in the Kunstkammer of Archduke Ferdinand II (1529-1595) at Ambras Castle"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB407367704",
+    "isiscb:recordID": "CBB407367704",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "«Ad templa Mathesis». La poesia di argomento scientifico negli Arcadum Carmina",
+    "schema:name": "«Ad templa Mathesis». La poesia di argomento scientifico negli Arcadum Carmina"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB011137188",
+    "isiscb:recordID": "CBB011137188",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "Soybean Cultivation and its Water-related Impacts in Brazil and the United States",
+    "schema:name": "Soybean Cultivation and its Water-related Impacts in Brazil and the United States"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB189490510",
+    "isiscb:recordID": "CBB189490510",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "The Use of the Crossbow in Medieval Cavalry",
+    "schema:name": "The Use of the Crossbow in Medieval Cavalry"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB881922010",
+    "isiscb:recordID": "CBB881922010",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Hernani de Irajá and the Early Years of Brazilian Sexology",
+    "schema:name": "Hernani de Irajá and the Early Years of Brazilian Sexology"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB731468985",
+    "isiscb:recordID": "CBB731468985",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Dorothy Wrinch, 1894–1976",
+    "schema:name": "Dorothy Wrinch, 1894–1976"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB343249561",
+    "isiscb:recordID": "CBB343249561",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "Redstick Creek log cabins at the Holy Ground",
+    "schema:name": "Redstick Creek log cabins at the Holy Ground"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB045092212",
+    "isiscb:recordID": "CBB045092212",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "Sounding Maritime Metal: On Weathering Steel and Listening to Capitalism at Sea",
+    "schema:name": "Sounding Maritime Metal: On Weathering Steel and Listening to Capitalism at Sea",
+    "isiscb:Title": "Sounding Maritime Metal: On Weathering Steel and Listening to Capitalism at Sea",
+    "isiscb:mainTitle": "Sounding Maritime Metal",
+    "isiscb:subtitle": "On Weathering Steel and Listening to Capitalism at Sea"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB906309634",
+    "isiscb:recordID": "CBB906309634",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Piene, ghiare e isoloni del Po nella prima età moderna. Un esempio fra Cremonese e Parmense nel Cinquecento",
+    "schema:name": "Piene, ghiare e isoloni del Po nella prima età moderna. Un esempio fra Cremonese e Parmense nel Cinquecento"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB397277713",
+    "isiscb:recordID": "CBB397277713",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "‘Healthy’ Relationships: Feminism and the Psy Disciplines in the Political History of Sexual Violence in Contemporary America",
+    "schema:name": "‘Healthy’ Relationships: Feminism and the Psy Disciplines in the Political History of Sexual Violence in Contemporary America",
+    "isiscb:Title": "‘Healthy’ Relationships: Feminism and the Psy Disciplines in the Political History of Sexual Violence in Contemporary America",
+    "isiscb:mainTitle": "‘Healthy’ Relationships",
+    "isiscb:subtitle": "Feminism and the Psy Disciplines in the Political History of Sexual Violence in Contemporary America"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB595245216",
+    "isiscb:recordID": "CBB595245216",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Lands of lagoons. How ancient Veneti lived in an 'amphibian' environment",
+    "schema:name": "Lands of lagoons. How ancient Veneti lived in an 'amphibian' environment"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB071682179",
+    "isiscb:recordID": "CBB071682179",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "‘... Di naturale tanto bene che non pare che gli manchi se non la parola.’: Filippino Lippi pittore di ritratti;  (Naturally so good that all he seems to lack is speech.': Filippino Lippi portrait painter)",
+    "schema:name": "‘... Di naturale tanto bene che non pare che gli manchi se non la parola.’: Filippino Lippi pittore di ritratti;  (Naturally so good that all he seems to lack is speech.': Filippino Lippi portrait painter)",
+    "isiscb:Title": "‘... Di naturale tanto bene che non pare che gli manchi se non la parola.’: Filippino Lippi pittore di ritratti;  (Naturally so good that all he seems to lack is speech.': Filippino Lippi portrait painter)",
+    "isiscb:mainTitle": "‘... Di naturale tanto bene che non pare che gli manchi se non la parola.’",
+    "isiscb:subtitle": "Filippino Lippi pittore di ritratti;  (Naturally so good that all he seems to lack is speech.': Filippino Lippi portrait painter)"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB224488514",
+    "isiscb:recordID": "CBB224488514",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Dagli spettacolari esperimenti per «dame, cavalieri,  e persone virtuose» alla censura del \"Pubblico sapiente\". Scienza e società a Napoli tra Sette e Ottocento",
+    "schema:name": "Dagli spettacolari esperimenti per «dame, cavalieri,  e persone virtuose» alla censura del \"Pubblico sapiente\". Scienza e società a Napoli tra Sette e Ottocento"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB449425326",
+    "isiscb:recordID": "CBB449425326",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "The Other Chemists' War: The Uses, Dual Uses, and Abuses of Chemical Weapons in World War II",
+    "schema:name": "The Other Chemists' War: The Uses, Dual Uses, and Abuses of Chemical Weapons in World War II",
+    "isiscb:Title": "The Other Chemists' War: The Uses, Dual Uses, and Abuses of Chemical Weapons in World War II",
+    "isiscb:mainTitle": "The Other Chemists' War",
+    "isiscb:subtitle": "The Uses, Dual Uses, and Abuses of Chemical Weapons in World War II"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB697646509",
+    "isiscb:recordID": "CBB697646509",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "The Unfinished Business of Anna Kingsford: Science, Enchantment, and Experiments on Animals",
+    "schema:name": "The Unfinished Business of Anna Kingsford: Science, Enchantment, and Experiments on Animals",
+    "isiscb:Title": "The Unfinished Business of Anna Kingsford: Science, Enchantment, and Experiments on Animals",
+    "isiscb:mainTitle": "The Unfinished Business of Anna Kingsford",
+    "isiscb:subtitle": "Science, Enchantment, and Experiments on Animals"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB547958477",
+    "isiscb:recordID": "CBB547958477",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Recipes in Many Hands: Local Networks and Empirical Knowledge in the Recetarios of Early Modern Spain",
+    "schema:name": "Recipes in Many Hands: Local Networks and Empirical Knowledge in the Recetarios of Early Modern Spain",
+    "isiscb:Title": "Recipes in Many Hands: Local Networks and Empirical Knowledge in the Recetarios of Early Modern Spain",
+    "isiscb:mainTitle": "Recipes in Many Hands",
+    "isiscb:subtitle": "Local Networks and Empirical Knowledge in the Recetarios of Early Modern Spain"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB025464248",
+    "isiscb:recordID": "CBB025464248",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "“Dope Hope”: Synanon House and the Makings of a Recovery Counterculture, 1945-1965",
+    "schema:name": "“Dope Hope”: Synanon House and the Makings of a Recovery Counterculture, 1945-1965",
+    "isiscb:Title": "“Dope Hope”: Synanon House and the Makings of a Recovery Counterculture, 1945-1965",
+    "isiscb:mainTitle": "“Dope Hope”",
+    "isiscb:subtitle": "Synanon House and the Makings of a Recovery Counterculture, 1945-1965"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB551912944",
+    "isiscb:recordID": "CBB551912944",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Revaluing Viability: Science and Legumes in Indian Agriculture",
+    "schema:name": "Revaluing Viability: Science and Legumes in Indian Agriculture",
+    "isiscb:Title": "Revaluing Viability: Science and Legumes in Indian Agriculture",
+    "isiscb:mainTitle": "Revaluing Viability",
+    "isiscb:subtitle": "Science and Legumes in Indian Agriculture"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB435719359",
+    "isiscb:recordID": "CBB435719359",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Constructing Stillness: Theorization, Discovery, Interrogation, and Negotiation of the Expanded Laboratory of the Laser Interferometer Gravitational-Wave Observatory",
+    "schema:name": "Constructing Stillness: Theorization, Discovery, Interrogation, and Negotiation of the Expanded Laboratory of the Laser Interferometer Gravitational-Wave Observatory",
+    "isiscb:Title": "Constructing Stillness: Theorization, Discovery, Interrogation, and Negotiation of the Expanded Laboratory of the Laser Interferometer Gravitational-Wave Observatory",
+    "isiscb:mainTitle": "Constructing Stillness",
+    "isiscb:subtitle": "Theorization, Discovery, Interrogation, and Negotiation of the Expanded Laboratory of the Laser Interferometer Gravitational-Wave Observatory"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB068831065",
+    "isiscb:recordID": "CBB068831065",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Disability and Race in British Literature, 1580-1833",
+    "schema:name": "Disability and Race in British Literature, 1580-1833"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB729022958",
+    "isiscb:recordID": "CBB729022958",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Evolution Made Visible: The Worlds of Thomas Jeffery Parker (1850-1897) the Noted New Zealand Zoologist",
+    "schema:name": "Evolution Made Visible: The Worlds of Thomas Jeffery Parker (1850-1897) the Noted New Zealand Zoologist",
+    "isiscb:Title": "Evolution Made Visible: The Worlds of Thomas Jeffery Parker (1850-1897) the Noted New Zealand Zoologist",
+    "isiscb:mainTitle": "Evolution Made Visible",
+    "isiscb:subtitle": "The Worlds of Thomas Jeffery Parker (1850-1897) the Noted New Zealand Zoologist"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB992804588",
+    "isiscb:recordID": "CBB992804588",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Petroleum, Health, and Power: The Anglo-Persian Oil Company and the Colonial Dimensions of Company Medicine in Iran, 1902–1931",
+    "schema:name": "Petroleum, Health, and Power: The Anglo-Persian Oil Company and the Colonial Dimensions of Company Medicine in Iran, 1902–1931",
+    "isiscb:Title": "Petroleum, Health, and Power: The Anglo-Persian Oil Company and the Colonial Dimensions of Company Medicine in Iran, 1902–1931",
+    "isiscb:mainTitle": "Petroleum, Health, and Power",
+    "isiscb:subtitle": "The Anglo-Persian Oil Company and the Colonial Dimensions of Company Medicine in Iran, 1902–1931"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB497166926",
+    "isiscb:recordID": "CBB497166926",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "“Wond’rous Machines”: How Eighteenth-Century Harpsichords Managed the Human-Animal, Human-Machine Boundaries",
+    "schema:name": "“Wond’rous Machines”: How Eighteenth-Century Harpsichords Managed the Human-Animal, Human-Machine Boundaries",
+    "isiscb:Title": "“Wond’rous Machines”: How Eighteenth-Century Harpsichords Managed the Human-Animal, Human-Machine Boundaries",
+    "isiscb:mainTitle": "“Wond’rous Machines”",
+    "isiscb:subtitle": "How Eighteenth-Century Harpsichords Managed the Human-Animal, Human-Machine Boundaries"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB681053632",
+    "isiscb:recordID": "CBB681053632",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "To Mix or Not to Mix: Race Science, Miscegenation, and the Making of the Chinese Race",
+    "schema:name": "To Mix or Not to Mix: Race Science, Miscegenation, and the Making of the Chinese Race",
+    "isiscb:Title": "To Mix or Not to Mix: Race Science, Miscegenation, and the Making of the Chinese Race",
+    "isiscb:mainTitle": "To Mix or Not to Mix",
+    "isiscb:subtitle": "Race Science, Miscegenation, and the Making of the Chinese Race"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB294977558",
+    "isiscb:recordID": "CBB294977558",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Reawakening the Ammonites: A History of the Lost World, 1500-1900",
+    "schema:name": "Reawakening the Ammonites: A History of the Lost World, 1500-1900",
+    "isiscb:Title": "Reawakening the Ammonites: A History of the Lost World, 1500-1900",
+    "isiscb:mainTitle": "Reawakening the Ammonites",
+    "isiscb:subtitle": "A History of the Lost World, 1500-1900"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB189840859",
+    "isiscb:recordID": "CBB189840859",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Organizational symbolism in the Peter Bent Brigham Hospital, 1913-1938: A cultural history",
+    "schema:name": "Organizational symbolism in the Peter Bent Brigham Hospital, 1913-1938: A cultural history",
+    "isiscb:Title": "Organizational symbolism in the Peter Bent Brigham Hospital, 1913-1938: A cultural history",
+    "isiscb:mainTitle": "Organizational symbolism in the Peter Bent Brigham Hospital, 1913-1938",
+    "isiscb:subtitle": "A cultural history"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB436064562",
+    "isiscb:recordID": "CBB436064562",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "The Aurochs Through Time: A History of Integrating Timescales and Disciplines in the Study of the Ancestral Cow",
+    "schema:name": "The Aurochs Through Time: A History of Integrating Timescales and Disciplines in the Study of the Ancestral Cow",
+    "isiscb:Title": "The Aurochs Through Time: A History of Integrating Timescales and Disciplines in the Study of the Ancestral Cow",
+    "isiscb:mainTitle": "The Aurochs Through Time",
+    "isiscb:subtitle": "A History of Integrating Timescales and Disciplines in the Study of the Ancestral Cow"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB918176692",
+    "isiscb:recordID": "CBB918176692",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Skin Surveillance Technologies and the Transformation of the Marked Body in History, Theory, and Practice: A Study of Free Skin's Reclamation and Exploration",
+    "schema:name": "Skin Surveillance Technologies and the Transformation of the Marked Body in History, Theory, and Practice: A Study of Free Skin's Reclamation and Exploration",
+    "isiscb:Title": "Skin Surveillance Technologies and the Transformation of the Marked Body in History, Theory, and Practice: A Study of Free Skin's Reclamation and Exploration",
+    "isiscb:mainTitle": "Skin Surveillance Technologies and the Transformation of the Marked Body in History, Theory, and Practice",
+    "isiscb:subtitle": "A Study of Free Skin's Reclamation and Exploration"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB639073970",
+    "isiscb:recordID": "CBB639073970",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "The Certification of Insanity: Local Origins and Global Consequences",
+    "schema:name": "The Certification of Insanity: Local Origins and Global Consequences",
+    "isiscb:Title": "The Certification of Insanity: Local Origins and Global Consequences",
+    "isiscb:mainTitle": "The Certification of Insanity",
+    "isiscb:subtitle": "Local Origins and Global Consequences"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB829370377",
+    "isiscb:recordID": "CBB829370377",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "How to Leap Without Looking: The Role of Habits in Rational Life",
+    "schema:name": "How to Leap Without Looking: The Role of Habits in Rational Life",
+    "isiscb:Title": "How to Leap Without Looking: The Role of Habits in Rational Life",
+    "isiscb:mainTitle": "How to Leap Without Looking",
+    "isiscb:subtitle": "The Role of Habits in Rational Life"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB101048242",
+    "isiscb:recordID": "CBB101048242",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Disability Democracy: The Origins of Blind-Led Organizing in the United States, 1829-1935",
+    "schema:name": "Disability Democracy: The Origins of Blind-Led Organizing in the United States, 1829-1935",
+    "isiscb:Title": "Disability Democracy: The Origins of Blind-Led Organizing in the United States, 1829-1935",
+    "isiscb:mainTitle": "Disability Democracy",
+    "isiscb:subtitle": "The Origins of Blind-Led Organizing in the United States, 1829-1935"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB707506393",
+    "isiscb:recordID": "CBB707506393",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Toxic Rules: Chemical Regulation, International Trade, and the Epistemic Consequences of Standardized Practices",
+    "schema:name": "Toxic Rules: Chemical Regulation, International Trade, and the Epistemic Consequences of Standardized Practices",
+    "isiscb:Title": "Toxic Rules: Chemical Regulation, International Trade, and the Epistemic Consequences of Standardized Practices",
+    "isiscb:mainTitle": "Toxic Rules",
+    "isiscb:subtitle": "Chemical Regulation, International Trade, and the Epistemic Consequences of Standardized Practices"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB585751811",
+    "isiscb:recordID": "CBB585751811",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "The 1970 All-Union Conference on Programming: Problems and Prospects of Soviet Computing",
+    "schema:name": "The 1970 All-Union Conference on Programming: Problems and Prospects of Soviet Computing",
+    "isiscb:Title": "The 1970 All-Union Conference on Programming: Problems and Prospects of Soviet Computing",
+    "isiscb:mainTitle": "The 1970 All-Union Conference on Programming",
+    "isiscb:subtitle": "Problems and Prospects of Soviet Computing"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB650626298",
+    "isiscb:recordID": "CBB650626298",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Climatography for the Anthropocene",
+    "schema:name": "Climatography for the Anthropocene"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB851683624",
+    "isiscb:recordID": "CBB851683624",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Enslavers’ Big Lie: Debunking the Relationship of Climate and Slavery",
+    "schema:name": "Enslavers’ Big Lie: Debunking the Relationship of Climate and Slavery",
+    "isiscb:Title": "Enslavers’ Big Lie: Debunking the Relationship of Climate and Slavery",
+    "isiscb:mainTitle": "Enslavers’ Big Lie",
+    "isiscb:subtitle": "Debunking the Relationship of Climate and Slavery"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB323765238",
+    "isiscb:recordID": "CBB323765238",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review Essay: The City-State of Boston: The Rise and Fall of an Atlantic Power, 1630–1865",
+    "schema:name": "Review Essay: The City-State of Boston: The Rise and Fall of an Atlantic Power, 1630–1865",
+    "isiscb:Title": "Review Essay: The City-State of Boston: The Rise and Fall of an Atlantic Power, 1630–1865",
+    "isiscb:mainTitle": "Review Essay",
+    "isiscb:subtitle": "The City-State of Boston: The Rise and Fall of an Atlantic Power, 1630–1865"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB134423720",
+    "isiscb:recordID": "CBB134423720",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review Socially Extended Epistemology",
+    "schema:name": "Review Socially Extended Epistemology"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB794088094",
+    "isiscb:recordID": "CBB794088094",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Harari's World History: Evolution toward Intelligence without Consciousness?",
+    "schema:name": "Harari's World History: Evolution toward Intelligence without Consciousness?",
+    "isiscb:Title": "Harari's World History: Evolution toward Intelligence without Consciousness?",
+    "isiscb:mainTitle": "Harari's World History",
+    "isiscb:subtitle": "Evolution toward Intelligence without Consciousness?"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB738884546",
+    "isiscb:recordID": "CBB738884546",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Challenging the Fake News About Mileva Einstein-Marić and Setting the Record Straight",
+    "schema:name": "Challenging the Fake News About Mileva Einstein-Marić and Setting the Record Straight"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB026821616",
+    "isiscb:recordID": "CBB026821616",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of Three Books on Science: Trust, Corporate Influence, and Militarization",
+    "schema:name": "Review of Three Books on Science: Trust, Corporate Influence, and Militarization",
+    "isiscb:Title": "Review of Three Books on Science: Trust, Corporate Influence, and Militarization",
+    "isiscb:mainTitle": "Review of Three Books on Science",
+    "isiscb:subtitle": "Trust, Corporate Influence, and Militarization"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB340220354",
+    "isiscb:recordID": "CBB340220354",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Harrington’s Time as a Historical Introduction",
+    "schema:name": "Harrington’s Time as a Historical Introduction"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB533055756",
+    "isiscb:recordID": "CBB533055756",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Pandemic Histories: Making Meaning or Embedding Bromides?",
+    "schema:name": "Pandemic Histories: Making Meaning or Embedding Bromides?",
+    "isiscb:Title": "Pandemic Histories: Making Meaning or Embedding Bromides?",
+    "isiscb:mainTitle": "Pandemic Histories",
+    "isiscb:subtitle": "Making Meaning or Embedding Bromides?"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB543471621",
+    "isiscb:recordID": "CBB543471621",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review Essay: How to Boost the Payoff from Innovation While Shrinking its Destructive Side Effects.  Review of The power of creative destruction : Economic upheaval and the wealth of nations, by Philippe Aghion;  Céline Antonin;  and Simon Bunel",
+    "schema:name": "Review Essay: How to Boost the Payoff from Innovation While Shrinking its Destructive Side Effects.  Review of The power of creative destruction : Economic upheaval and the wealth of nations, by Philippe Aghion;  Céline Antonin;  and Simon Bunel",
+    "isiscb:Title": "Review Essay: How to Boost the Payoff from Innovation While Shrinking its Destructive Side Effects.  Review of The power of creative destruction : Economic upheaval and the wealth of nations, by Philippe Aghion;  Céline Antonin;  and Simon Bunel",
+    "isiscb:mainTitle": "Review Essay",
+    "isiscb:subtitle": "How to Boost the Payoff from Innovation While Shrinking its Destructive Side Effects.  Review of The power of creative destruction : Economic upheaval and the wealth of nations, by Philippe Aghion;  Céline Antonin;  and Simon Bunel"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB647813082",
+    "isiscb:recordID": "CBB647813082",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Science and ethics on a (very) shaky foundation",
+    "schema:name": "Science and ethics on a (very) shaky foundation"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB519688651",
+    "isiscb:recordID": "CBB519688651",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "The History of the Brain and Mind Sciences",
+    "schema:name": "The History of the Brain and Mind Sciences"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB431465842",
+    "isiscb:recordID": "CBB431465842",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "A New Approach to Philosophy of Science Textbooks",
+    "schema:name": "A New Approach to Philosophy of Science Textbooks"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB867322306",
+    "isiscb:recordID": "CBB867322306",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "What if there are laws of nature? Reflections on van Fraassen’s Laws and Symmetry",
+    "schema:name": "What if there are laws of nature? Reflections on van Fraassen’s Laws and Symmetry"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB583523105",
+    "isiscb:recordID": "CBB583523105",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Taking Stock of the Metaphysics of Science Debate: Drawing Disciplinary Frontiers",
+    "schema:name": "Taking Stock of the Metaphysics of Science Debate: Drawing Disciplinary Frontiers",
+    "isiscb:Title": "Taking Stock of the Metaphysics of Science Debate: Drawing Disciplinary Frontiers",
+    "isiscb:mainTitle": "Taking Stock of the Metaphysics of Science Debate",
+    "isiscb:subtitle": "Drawing Disciplinary Frontiers"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB556780688",
+    "isiscb:recordID": "CBB556780688",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "A Reassessment of Civilization",
+    "schema:name": "A Reassessment of Civilization"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB691215324",
+    "isiscb:recordID": "CBB691215324",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Placing Universal Grammar on the Agenda of Evolutionary Linguistics?",
+    "schema:name": "Placing Universal Grammar on the Agenda of Evolutionary Linguistics?"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB555699226",
+    "isiscb:recordID": "CBB555699226",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Text and Context in the History of Medieval Thought",
+    "schema:name": "Text and Context in the History of Medieval Thought"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB140842213",
+    "isiscb:recordID": "CBB140842213",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "On the Couch with Freud and Kuhn",
+    "schema:name": "On the Couch with Freud and Kuhn"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB820503029",
+    "isiscb:recordID": "CBB820503029",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:EssayReview"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review essay: William Caferro, Petrarch's War: Florence and the Black Death in Context",
+    "schema:name": "Review essay: William Caferro, Petrarch's War: Florence and the Black Death in Context",
+    "isiscb:Title": "Review essay: William Caferro, Petrarch's War: Florence and the Black Death in Context",
+    "isiscb:mainTitle": "Review essay",
+    "isiscb:subtitle": "William Caferro, Petrarch's War: Florence and the Black Death in Context"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB473457595",
+    "isiscb:recordID": "CBB473457595",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:MultimediaObject"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "The Last Archive Podcast - Pushkin Industries",
+    "schema:name": "The Last Archive Podcast - Pushkin Industries"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB963410334",
+    "isiscb:recordID": "CBB963410334",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:MultimediaObject"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "Sarah Neville, Early Modern Herbals and the Book Trade (2022)",
+    "schema:name": "Sarah Neville, Early Modern Herbals and the Book Trade (2022)"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB905200643",
+    "isiscb:recordID": "CBB905200643",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:MultimediaObject"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Anna Reser and Leila McNeill, \"Forces of Nature: The Women Who Changed Science\" (Frances Lincoln, 2021)",
+    "schema:name": "Anna Reser and Leila McNeill, \"Forces of Nature: The Women Who Changed Science\" (Frances Lincoln, 2021)",
+    "isiscb:Title": "Anna Reser and Leila McNeill, \"Forces of Nature: The Women Who Changed Science\" (Frances Lincoln, 2021)",
+    "isiscb:mainTitle": "Anna Reser and Leila McNeill, \"Forces of Nature",
+    "isiscb:subtitle": "The Women Who Changed Science\" (Frances Lincoln, 2021)"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB455784770",
+    "isiscb:recordID": "CBB455784770",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:MultimediaObject"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "The Fruit Machine",
+    "schema:name": "The Fruit Machine"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB258716502",
+    "isiscb:recordID": "CBB258716502",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:MultimediaObject"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "SPK Komplex",
+    "schema:name": "SPK Komplex"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB477713789",
+    "isiscb:recordID": "CBB477713789",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:DigitalResource"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "The Vesalius Census",
+    "schema:name": "The Vesalius Census"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB280655308",
+    "isiscb:recordID": "CBB280655308",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:DigitalResource"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "Database of Scientific Illustrators, 1450-1950",
+    "schema:name": "Database of Scientific Illustrators, 1450-1950"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB352054317",
+    "isiscb:recordID": "CBB352054317",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:DigitalResource"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Bérose - Encyclopédie internationale des histoires de l'anthropologie",
+    "schema:name": "Bérose - Encyclopédie internationale des histoires de l'anthropologie"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB842614861",
+    "isiscb:recordID": "CBB842614861",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:PersonalRecognition"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "Neu Whitrow Prize Award of 2021",
+    "schema:name": "Neu Whitrow Prize Award of 2021"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB518938700",
+    "isiscb:recordID": "CBB518938700",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:PersonalRecognition"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "Neu Whitrow Prize Award of 2017",
+    "schema:name": "Neu Whitrow Prize Award of 2017"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB513556060",
+    "isiscb:recordID": "CBB513556060",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:PersonalRecognition"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation )",
+    "dc:title": "Neu Whitrow Prize Award of 2013",
+    "schema:name": "Neu Whitrow Prize Award of 2013"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB169996301",
+    "isiscb:recordID": "CBB169996301",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:WebObject"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation New Stub records)",
+    "dc:title": "The Suppression and Misuses of Academic Freedom During the Nazi Regime",
+    "schema:name": "The Suppression and Misuses of Academic Freedom During the Nazi Regime"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "isiscb": "https://data.isiscb.org/context/"
+    },
+    "@id": "https://data.isiscb.org/citation/CBB964964407",
+    "isiscb:recordID": "CBB964964407",
+    "@type": [
+      "isiscb:UnmappedType",
+      "isiscb:WebObject"
+    ],
+    "isiscb:recordStatus": "isiscb:statusActive",
+    "isiscb:recordNatureOriginal": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Secrets of Craft and Nature in Renaissance France. A Digital Critical Edition and English Translation of BnF Ms. Fr. 640",
+    "schema:name": "Secrets of Craft and Nature in Renaissance France. A Digital Critical Edition and English Translation of BnF Ms. Fr. 640"
+  }
+]
