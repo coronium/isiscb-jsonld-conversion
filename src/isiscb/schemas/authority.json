@@ -1,0 +1,125 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "IsisCB Authority Schema",
+    "description": "JSON Schema for IsisCB Authority JSON-LD documents",
+    "type": "object",
+    "required": ["@context", "@id", "@type"],
+    "properties": {
+      "@context": {
+        "description": "JSON-LD context definition",
+        "oneOf": [
+          {"type": "string", "format": "uri"},
+          {"type": "object"},
+          {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {"type": "string", "format": "uri"},
+                {"type": "object"}
+              ]
+            }
+          }
+        ]
+      },
+      "@id": {
+        "type": "string",
+        "format": "uri",
+        "description": "Unique identifier for the authority",
+        "pattern": "^https://data\\.isiscb\\.org/authority/CBA\\d+"
+      },
+      "@type": {
+        "description": "Type of the authority",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "array", "items": {"type": "string"}}
+        ]
+      },
+      "schema:name": {
+        "type": "string",
+        "description": "Name of the authority"
+      },
+      "schema:familyName": {
+        "type": "string",
+        "description": "Family name for Person authorities"
+      },
+      "schema:givenName": {
+        "type": "string",
+        "description": "Given name for Person authorities"
+      },
+      "schema:description": {
+        "type": "string",
+        "description": "Description of the authority"
+      },
+      "skos:prefLabel": {
+        "type": "string",
+        "description": "Preferred label for the authority"
+      },
+      "skos:altLabel": {
+        "description": "Alternative label(s) for the authority",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "array", "items": {"type": "string"}}
+        ]
+      },
+      "isiscb:recordID": {
+        "type": "string",
+        "description": "IsisCB identifier for the authority",
+        "pattern": "^CBA\\d+"
+      },
+      "isiscb:recordType": {
+        "type": "string",
+        "description": "Type of record in the IsisCB system",
+        "enum": [
+          "Person", 
+          "Institution", 
+          "Geographic Term", 
+          "Concept", 
+          "Time Period", 
+          "Serial Publication", 
+          "Event", 
+          "Creative Work", 
+          "Category Division", 
+          "Cross-reference"
+        ]
+      },
+      "isiscb:recordStatus": {
+        "type": "string",
+        "description": "Status of the record in the IsisCB system"
+      },
+      "isiscb:recordNatureOriginal": {
+        "type": "string",
+        "description": "Original record nature value"
+      },
+      "isiscb:classificationSystem": {
+        "type": "string",
+        "description": "Classification system used for the authority"
+      },
+      "isiscb:classificationCode": {
+        "oneOf": [
+          {"type": "string"},
+          {"type": "number"}
+        ],
+        "description": "Classification code within the specified system"
+      },
+      "sameAs": {
+        "description": "External identifiers for the same entity",
+        "oneOf": [
+          {"type": "string", "format": "uri"},
+          {"type": "array", "items": {"type": "string", "format": "uri"}}
+        ]
+      },
+      "isiscb:redirectsTo": {
+        "description": "Redirect to another authority record",
+        "type": "object",
+        "required": ["@id"],
+        "properties": {
+          "@id": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://data\\.isiscb\\.org/authority/CBA\\d+"
+          }
+        }
+      }
+    },
+    "additionalProperties": true
+  }

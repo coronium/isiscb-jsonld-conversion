@@ -8,37 +8,12 @@ import logging
 from typing import Dict, List
 
 from ..base import BaseConverter
+from ..schema_mappings import AUTHORITY_TYPE_MAPPING, CITATION_TYPE_MAPPING, RECORD_STATUS_MAPPING
 
 logger = logging.getLogger('isiscb_conversion')
 
 class RecordTypeConverter(BaseConverter):
     """Converter for Record Type fields."""
-    
-    # Standard mappings for authority records
-    AUTHORITY_TYPE_MAPPING = {
-        "Person": ["schema:Person", "foaf:Person"],
-        "Institution": ["schema:Organization", "foaf:Organization"],
-        "Geographic Term": ["schema:Place"],
-        "Concept": ["skos:Concept"],
-        "Time Period": ["dcterms:PeriodOfTime"],
-        "Serial Publication": ["bibo:Periodical"],
-        "Event": ["schema:Event"],
-        "Creative Work": ["schema:CreativeWork"],
-        "Category Division": ["skos:Collection"],
-        "Cross-reference": ["skos:Collection"]
-    }
-    
-    # Standard mappings for citation records
-    CITATION_TYPE_MAPPING = {
-        "Book": ["bibo:Book", "schema:Book"],
-        "Article": ["bibo:Article", "schema:ScholarlyArticle"],
-        "Thesis": ["bibo:Thesis", "schema:Thesis"],
-        "Chapter": ["bibo:Chapter", "schema:Chapter"],
-        "Review": ["bibo:AcademicArticle", "schema:Review"],
-        "Essay": ["bibo:AcademicArticle"],
-        "Website": ["schema:WebSite"],
-        "Conference Proceeding": ["bibo:Proceedings"]
-    }
     
     def __init__(self, field_name: str = "Record Type"):
         """Initialize the Record Type converter."""
@@ -61,9 +36,9 @@ class RecordTypeConverter(BaseConverter):
         
         # Determine if this is an authority or citation based on record ID pattern
         if record_id.startswith("CBA"):
-            type_mapping = self.AUTHORITY_TYPE_MAPPING
+            type_mapping = AUTHORITY_TYPE_MAPPING
         else:
-            type_mapping = self.CITATION_TYPE_MAPPING
+            type_mapping = CITATION_TYPE_MAPPING
         
         # Get standard types or use a default type
         standard_types = type_mapping.get(value, ["isiscb:UnmappedType"])
@@ -104,17 +79,10 @@ class RecordNatureConverter(BaseConverter):
         else:
             status = value.strip()
         
-        # Map to standard vocabularies where possible
-        status_mapping = {
-            "Active": "isiscb:statusActive",
-            "Inactive": "isiscb:statusInactive",
-            "Delete": "isiscb:statusMarkedForDeletion",
-            "Redirect": "isiscb:statusRedirect"
-        }
-        
-        mapped_status = status_mapping.get(status, f"isiscb:status{status.replace(' ', '')}")
+        # Map to standard vocabularies using the centralized mapping
+        mapped_status = RECORD_STATUS_MAPPING.get(status, f"isiscb:status{status.replace(' ', '')}")
         
         return {
             "isiscb:recordStatus": mapped_status,
-            "isiscb:recordNatureOriginal": value
+            "isiscb:recordNature": value
         }

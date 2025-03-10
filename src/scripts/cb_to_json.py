@@ -15,11 +15,48 @@ from pathlib import Path
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger('isiscb_conversion')
 
-# Add the src directory to the Python path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+# Determine the project root and add it to the Python path
+script_path = os.path.abspath(__file__)
+scripts_dir = os.path.dirname(script_path)
+src_dir = os.path.dirname(scripts_dir)  # src directory
+project_root = os.path.dirname(src_dir)  # project root
 
-# Import from the correct module path
-from src.isiscb.pipeline.citation_pipeline import CitationConverterPipeline
+# Print paths for debugging
+print(f"Script path: {script_path}")
+print(f"Project root: {project_root}")
+
+# Add the project root and src directory to the system path
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
+# Import directly from the source directory
+try:
+    # First try importing with full path
+    from src.isiscb.pipeline.citation_pipeline import CitationConverterPipeline
+    print("Successfully imported CitationConverterPipeline")
+except ImportError as e:
+    print(f"Import error: {e}")
+    # Try alternative import paths
+    try:
+        # Add src to path explicitly
+        sys.path.append(src_dir)
+        from isiscb.pipeline.citation_pipeline import CitationConverterPipeline
+        print("Successfully imported CitationConverterPipeline using alternative path")
+    except ImportError as e:
+        print(f"Alternative import failed: {e}")
+        
+        # One more try with a direct absolute import
+        try:
+            sys.path.append(os.path.join(project_root, 'src', 'isiscb'))
+            from pipeline.citation_pipeline import CitationConverterPipeline
+            print("Successfully imported CitationConverterPipeline using direct path")
+        except ImportError as e:
+            print(f"Direct import failed: {e}")
+            # Show the system path for debugging
+            print("\nCurrent sys.path:")
+            for p in sys.path:
+                print(f"  {p}")
+            sys.exit(1)
 
 def main():
     """Main function to run the conversion process."""
@@ -31,6 +68,12 @@ def main():
     # Get input and output paths from command line arguments
     input_file = sys.argv[1]
     output_file = sys.argv[2]
+    
+    # Convert relative paths to absolute paths
+    if not os.path.isabs(input_file):
+        input_file = os.path.abspath(os.path.join(os.getcwd(), input_file))
+    if not os.path.isabs(output_file):
+        output_file = os.path.abspath(os.path.join(os.getcwd(), output_file))
     
     # Validate input file exists
     if not os.path.isfile(input_file):

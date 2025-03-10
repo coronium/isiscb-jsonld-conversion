@@ -1,0 +1,140 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "IsisCB Citation Schema",
+    "description": "JSON Schema for IsisCB Citation JSON-LD documents",
+    "type": "object",
+    "required": ["@context", "@id", "@type"],
+    "properties": {
+      "@context": {
+        "description": "JSON-LD context definition",
+        "oneOf": [
+          {"type": "string", "format": "uri"},
+          {"type": "object"},
+          {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {"type": "string", "format": "uri"},
+                {"type": "object"}
+              ]
+            }
+          }
+        ]
+      },
+      "@id": {
+        "type": "string",
+        "format": "uri",
+        "description": "Unique identifier for the citation",
+        "pattern": "^https://data\\.isiscb\\.org/citation/CBB\\d+"
+      },
+      "@type": {
+        "description": "Type of the citation",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "array", "items": {"type": "string"}}
+        ]
+      },
+      "dc:title": {
+        "type": "string",
+        "description": "Title of the citation"
+      },
+      "isiscb:mainTitle": {
+        "type": "string",
+        "description": "Main title without subtitle"
+      },
+      "isiscb:subtitle": {
+        "type": "string",
+        "description": "Subtitle of the citation"
+      },
+      "dc:creator": {
+        "description": "Creator(s) of the work",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "object"},
+          {"type": "array", "items": {"oneOf": [{"type": "string"}, {"type": "object"}]}}
+        ]
+      },
+      "dc:contributor": {
+        "description": "Contributor(s) to the work",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "object"},
+          {"type": "array", "items": {"oneOf": [{"type": "string"}, {"type": "object"}]}}
+        ]
+      },
+      "dc:date": {
+        "type": "string",
+        "description": "Publication date"
+      },
+      "dc:publisher": {
+        "description": "Publisher of the work",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "object"}
+        ]
+      },
+      "dc:language": {
+        "description": "Language of the work",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "array", "items": {"type": "string"}}
+        ]
+      },
+      "dc:subject": {
+        "description": "Subject(s) of the work",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "object"},
+          {"type": "array", "items": {"oneOf": [{"type": "string"}, {"type": "object"}]}}
+        ]
+      },
+      "isiscb:recordID": {
+        "type": "string",
+        "description": "IsisCB identifier for the citation",
+        "pattern": "^CBB\\d+"
+      },
+      "isiscb:recordType": {
+        "type": "string",
+        "description": "Type of record in the IsisCB system",
+        "enum": [
+          "Book", 
+          "Article", 
+          "Chapter", 
+          "Review", 
+          "Essay", 
+          "Thesis", 
+          "Conference Proceeding",
+          "Conference Paper",
+          "Website",
+          "Report"
+        ]
+      },
+      "isiscb:recordStatus": {
+        "type": "string",
+        "description": "Status of the record in the IsisCB system"
+      },
+      "isiscb:recordNatureOriginal": {
+        "type": "string",
+        "description": "Original record nature value"
+      },
+      "bibo:pages": {
+        "type": "string",
+        "description": "Page range of the citation"
+      },
+      "prism:volume": {
+        "oneOf": [
+          {"type": "string"},
+          {"type": "number"}
+        ],
+        "description": "Volume number for journal articles"
+      },
+      "prism:number": {
+        "oneOf": [
+          {"type": "string"},
+          {"type": "number"}
+        ],
+        "description": "Issue number for journal articles"
+      }
+    },
+    "additionalProperties": true
+  }

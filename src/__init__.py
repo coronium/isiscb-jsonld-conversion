@@ -5,4 +5,4 @@ This package contains tools for converting IsisCB Explore Database records to JS
 """
 
 # Make isiscb module directly accessible
-import src.isiscb
+#import src.isiscb

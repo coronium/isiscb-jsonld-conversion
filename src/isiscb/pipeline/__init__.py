@@ -5,4 +5,5 @@ This package contains pipeline classes that coordinate the conversion
 of complete records using the individual field converters.
 """
 
-from .citation_pipeline import CitationConverterPipeline, convert_citations_to_jsonld
+# Import the class directly without the function which might not exist
+from .citation_pipeline import CitationConverterPipeline

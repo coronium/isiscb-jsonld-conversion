@@ -1,0 +1,484 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "IsisCB Record Schema",
+    "description": "JSON Schema for IsisCB Records (Citations and Authorities) in JSON-LD format",
+    "type": "object",
+    "required": ["@context", "@id", "@type", "isiscb:recordID"],
+    "properties": {
+      "@context": {
+        "description": "JSON-LD context definition",
+        "oneOf": [
+          {"type": "string", "format": "uri"},
+          {"type": "object"},
+          {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {"type": "string", "format": "uri"},
+                {"type": "object"}
+              ]
+            }
+          }
+        ]
+      },
+      "@id": {
+        "type": "string",
+        "format": "uri",
+        "description": "Unique identifier URI for the record"
+      },
+      "@type": {
+        "description": "Type of the record",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "array", "items": {"type": "string"}}
+        ]
+      },
+      
+      "isiscb:recordID": {
+        "type": "string",
+        "description": "Internal identifier for the record",
+        "pattern": "^(CBA|CBB)\\d+"
+      },
+      "isiscb:recordType": {
+        "type": "string",
+        "description": "Type of record in the IsisCB system"
+      },
+      "isiscb:recordSubtype": {
+        "type": "string",
+        "description": "Subtype of the record"
+      },
+      "isiscb:recordNature": {
+        "type": "string",
+        "description": "Nature of the record (Active, Inactive, Delete, Redirect, etc.)"
+      },
+      "isiscb:recordAction": {
+        "type": "string",
+        "description": "Action to be performed on the record"
+      },
+      "isiscb:redirect": {
+        "description": "Redirection to another record",
+        "type": "object",
+        "properties": {
+          "@id": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      
+      "dc:title": {
+        "description": "Title of the work",
+        "oneOf": [
+          {"type": "string"},
+          {
+            "type": "object",
+            "required": ["@value"],
+            "properties": {
+              "@value": {"type": "string"},
+              "@language": {"type": "string"}
+            }
+          },
+          {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {"type": "string"},
+                {
+                  "type": "object",
+                  "required": ["@value"],
+                  "properties": {
+                    "@value": {"type": "string"},
+                    "@language": {"type": "string"}
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "isiscb:mainTitle": {
+        "description": "Main title without subtitle",
+        "type": "string"
+      },
+      "isiscb:subtitle": {
+        "description": "Subtitle of the work",
+        "type": "string"
+      },
+      
+      "dc:creator": {
+        "description": "Creator(s) of the work",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "object"},
+          {"type": "array", "items": {"oneOf": [{"type": "string"}, {"type": "object"}]}}
+        ]
+      },
+      "dc:contributor": {
+        "description": "Contributor(s) to the work including editors",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "object"},
+          {"type": "array", "items": {"oneOf": [{"type": "string"}, {"type": "object"}]}}
+        ]
+      },
+      "schema:editor": {
+        "description": "Editor(s) of the work",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "object"},
+          {"type": "array", "items": {"oneOf": [{"type": "string"}, {"type": "object"}]}}
+        ]
+      },
+      
+      "dc:date": {
+        "type": "string",
+        "description": "Publication date"
+      },
+      "schema:datePublished": {
+        "type": "string",
+        "description": "Year of publication"
+      },
+      "isiscb:yearNormalized": {
+        "type": "integer",
+        "description": "Normalized year of publication for sorting"
+      },
+      
+      "dc:publisher": {
+        "description": "Publisher of the work",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "object"}
+        ]
+      },
+      "isiscb:publisherLocation": {
+        "type": "string",
+        "description": "Place of publication"
+      },
+      "isiscb:placePublisher": {
+        "type": "string",
+        "description": "Combined place and publisher information"
+      },
+      
+      "dc:language": {
+        "description": "Language of the work",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "array", "items": {"type": "string"}}
+        ]
+      },
+      
+      "dc:description": {
+        "description": "Description of the record",
+        "oneOf": [
+          {"type": "string"},
+          {
+            "type": "object",
+            "required": ["@value"],
+            "properties": {
+              "@value": {"type": "string"},
+              "@language": {"type": "string"}
+            }
+          }
+        ]
+      },
+      "dc:abstract": {
+        "description": "Abstract of the work",
+        "oneOf": [
+          {"type": "string"},
+          {
+            "type": "object",
+            "required": ["@value"],
+            "properties": {
+              "@value": {"type": "string"},
+              "@language": {"type": "string"}
+            }
+          }
+        ]
+      },
+      
+      "dc:subject": {
+        "description": "Subject(s) of the work",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "object"},
+          {"type": "array", "items": {"oneOf": [{"type": "string"}, {"type": "object"}]}}
+        ]
+      },
+      "isiscb:categoryNumbers": {
+        "description": "Category numbers for classification",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "array", "items": {"type": "string"}}
+        ]
+      },
+      "isiscb:classificationSystem": {
+        "type": "string",
+        "description": "Classification system used for the authority"
+      },
+      "isiscb:classificationCode": {
+        "oneOf": [
+          {"type": "string"},
+          {"type": "number"}
+        ],
+        "description": "Classification code within the specified system"
+      },
+      
+      "bibo:edition": {
+        "type": "string",
+        "description": "Edition details of the work"
+      },
+      "bibo:pages": {
+        "type": "string",
+        "description": "Page range of the citation"
+      },
+      "isiscb:pagesFreeText": {
+        "type": "string",
+        "description": "Free text description of pages"
+      },
+      "isiscb:extent": {
+        "type": "string",
+        "description": "Extent of the work"
+      },
+      "isiscb:physicalDetails": {
+        "type": "string",
+        "description": "Physical details of the work"
+      },
+      
+      "bibo:isbn": {
+        "type": "string",
+        "description": "ISBN of the book"
+      },
+      "schema:identifier": {
+        "description": "Other identifiers associated with the record",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "object"},
+          {"type": "array", "items": {"oneOf": [{"type": "string"}, {"type": "object"}]}}
+        ]
+      },
+      
+      "schema:isPartOf": {
+        "description": "Parent work (series, journal) this record is part of",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "object"},
+          {"type": "array", "items": {"oneOf": [{"type": "string"}, {"type": "object"}]}}
+        ]
+      },
+      "isiscb:journalLink": {
+        "description": "Link to associated journal",
+        "type": "object",
+        "properties": {
+          "@id": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "isiscb:series": {
+        "type": "string",
+        "description": "Series the work belongs to"
+      },
+      "bibo:volume": {
+        "oneOf": [
+          {"type": "string"},
+          {"type": "number"}
+        ],
+        "description": "Volume number for journal articles"
+      },
+      "bibo:issue": {
+        "oneOf": [
+          {"type": "string"},
+          {"type": "number"}
+        ],
+        "description": "Issue number for journal articles"
+      },
+      "isiscb:includesSeriesArticle": {
+        "type": "boolean",
+        "description": "Indicates if the record includes a series article"
+      },
+      
+      "schema:advisors": {
+        "description": "Advisor(s) for thesis works",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "object"},
+          {"type": "array", "items": {"oneOf": [{"type": "string"}, {"type": "object"}]}}
+        ]
+      },
+      "schema:school": {
+        "description": "School associated with thesis works",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "object"}
+        ]
+      },
+      
+      "schema:name": {
+        "type": "string",
+        "description": "Name of the authority"
+      },
+      "schema:familyName": {
+        "type": "string",
+        "description": "Family name for Person authorities"
+      },
+      "schema:givenName": {
+        "type": "string",
+        "description": "Given name for Person authorities"
+      },
+      "schema:nameSuffix": {
+        "type": "string",
+        "description": "Name suffix for Person authorities"
+      },
+      "isiscb:namePreferred": {
+        "type": "string",
+        "description": "Preferred form of the name"
+      },
+      
+      "skos:prefLabel": {
+        "type": "string",
+        "description": "Preferred label for the authority"
+      },
+      "skos:altLabel": {
+        "description": "Alternative label(s) for the authority",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "array", "items": {"type": "string"}}
+        ]
+      },
+      
+      "sameAs": {
+        "description": "External identifiers for the same entity",
+        "oneOf": [
+          {"type": "string", "format": "uri"},
+          {"type": "array", "items": {"type": "string", "format": "uri"}}
+        ]
+      },
+      "isiscb:linkedData": {
+        "description": "Linked data connections to external resources",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "object"},
+          {"type": "array", "items": {"oneOf": [{"type": "string"}, {"type": "object"}]}}
+        ]
+      },
+      
+      "isiscb:attributes": {
+        "description": "Additional attributes for the record",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "object"},
+          {"type": "array", "items": {"oneOf": [{"type": "string"}, {"type": "object"}]}}
+        ]
+      },
+      
+      "isiscb:fullyEntered": {
+        "type": "string",
+        "description": "Flag indicating if the record is fully entered"
+      },
+      "isiscb:proofed": {
+        "type": "string",
+        "description": "Flag indicating if the record has been proofed"
+      },
+      "isiscb:spwChecked": {
+        "type": "string",
+        "description": "Flag indicating if the record has been checked by SPW"
+      },
+      "isiscb:publishedPrint": {
+        "type": "string",
+        "description": "Flag indicating if the record has been published in print"
+      },
+      "isiscb:publishedRLG": {
+        "type": "string",
+        "description": "Flag indicating if the record has been published in RLG"
+      },
+      "isiscb:stubRecordStatus": {
+        "type": "string",
+        "description": "Status if the record is a stub"
+      },
+      "isiscb:completeCitation": {
+        "type": "string",
+        "description": "The complete citation as a formatted string"
+      },
+      "isiscb:linkToRecord": {
+        "type": "string",
+        "format": "uri",
+        "description": "External link to the record"
+      },
+      
+      "isiscb:staffNotes": {
+        "type": "string",
+        "description": "Notes for staff use"
+      },
+      "isiscb:recordHistory": {
+        "type": "string",
+        "description": "History of changes to the record"
+      },
+      "isiscb:dataset": {
+        "type": "string",
+        "description": "Dataset the record belongs to"
+      },
+      
+      "dc:created": {
+        "type": "string",
+        "format": "date-time",
+        "description": "Creation date of the record"
+      },
+      "dc:modified": {
+        "type": "string",
+        "format": "date-time",
+        "description": "Last modification date of the record"
+      },
+      "dc:creator": {
+        "description": "Creator of the record",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "object"}
+        ]
+      },
+      "isiscb:modifier": {
+        "description": "Last modifier of the record",
+        "oneOf": [
+          {"type": "string"},
+          {"type": "object"}
+        ]
+      }
+    },
+    
+    "allOf": [
+      {
+        "if": {
+          "properties": {
+            "@id": {
+              "pattern": "^https://data\\.isiscb\\.org/citation/"
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "isiscb:recordID": {
+              "pattern": "^CBB\\d+"
+            }
+          }
+        }
+      },
+      {
+        "if": {
+          "properties": {
+            "@id": {
+              "pattern": "^https://data\\.isiscb\\.org/authority/"
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "isiscb:recordID": {
+              "pattern": "^CBA\\d+"
+            }
+          }
+        }
+      }
+    ],
+    
+    "additionalProperties": true
+  }

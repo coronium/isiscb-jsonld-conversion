@@ -8,6 +8,7 @@ import pandas as pd
 from typing import Dict, Optional
 
 from ..base import BaseConverter, ConverterException
+from ..schema_mappings import get_property
 
 class RecordIdConverter(BaseConverter):
     """Converter for Record ID fields."""
@@ -38,9 +39,10 @@ class RecordIdConverter(BaseConverter):
             return {}
         
         # Create the JSON-LD ID using the appropriate namespace
+        identifier_property = get_property("identifier", "recordID")
         return {
             "@id": f"https://data.isiscb.org/{self.entity_type}/{value}", 
-            f"isiscb:recordID": value
+            identifier_property: value
         }
 
 

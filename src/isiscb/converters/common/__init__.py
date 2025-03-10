@@ -7,3 +7,4 @@ citation and authority records, such as identifiers and record types.
 
 from .identifier import RecordIdConverter, RedirectConverter
 from .types import RecordTypeConverter, RecordNatureConverter
+from .linked_data import LinkedDataConverter

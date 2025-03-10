@@ -1,0 +1,1718 @@
+[
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB035466898",
+    "isiscb:recordID": "CBB035466898",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation )",
+    "dc:title": "“Communication for Change”: Radio Sutatenza/Acción Cultural Popular, the Catholic Church, and Rural Development in Colombia during the Cold War"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB085804111",
+    "isiscb:recordID": "CBB085804111",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "Inactive",
+    "isiscb:recordNature": "Inactive (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Science in the Church: The Sacred Spaces of Sonorous Experiment and the Formation of Modern Acoustics"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB104080754",
+    "isiscb:recordID": "CBB104080754",
+    "@type": [
+      "bibo:Thesis",
+      "schema:Thesis",
+      "isiscb:Thesis"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Geometry of the Sun: Guarino Guarini and the Church of San Lorenzo"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB148054551",
+    "isiscb:recordID": "CBB148054551",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation )",
+    "dc:title": "Marriage Litigation in the Western Church 1215–1517"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB158942157",
+    "isiscb:recordID": "CBB158942157",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Marriage Litigation in the Western Church 1215–1517\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB190788353",
+    "isiscb:recordID": "CBB190788353",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Transforming the church interior in Renaissance Florence : screens and choir spaces from the Middle Ages to Tridentine reform\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB238871988",
+    "isiscb:recordID": "CBB238871988",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "From Refoundation to Decline: A Century of Catholic Church Hospitals in Spain (1880s–1980s)"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB290554177",
+    "isiscb:recordID": "CBB290554177",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "The Nature of Church Camp: An Environmental History of Outdoor Ministry, 1945–1980"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB306808729",
+    "isiscb:recordID": "CBB306808729",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Jennifer Scheper Hughes. The Church of the Dead: The Epidemic of 1576 and the Birth of Christianity in the Americas."
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB338337112",
+    "isiscb:recordID": "CBB338337112",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "East or Easter? Keys to the orientation of Romanesque churches along the Way of Saint James"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB374821436",
+    "isiscb:recordID": "CBB374821436",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Pious Postmortems: Anatomy, Sanctity, and the Catholic Church in Early Modern Europe\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB401301232",
+    "isiscb:recordID": "CBB401301232",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Can Church’s thesis be viewed as a Carnapian explication?"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB405738815",
+    "isiscb:recordID": "CBB405738815",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation )",
+    "dc:title": "Portability, Mobility, and Cultural Transfers—Wooden Church Architecture in Early Modern Banat : The Case of the St. Paraschiva Wooden Church in Crivina de Sus"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB421435590",
+    "isiscb:recordID": "CBB421435590",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Blackfriars in early modern London : theater, church, and neighborhood\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB431376479",
+    "isiscb:recordID": "CBB431376479",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Natural Light in Medieval Churches"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB451558155",
+    "isiscb:recordID": "CBB451558155",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation )",
+    "dc:title": "The Reformation, the Book, and the Clergy: The Place of Holy Scripture in the Churches of the Duchy of Pomerania and Clerical Identity in the Sixteenth and Seventeenth Centuries"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB545970081",
+    "isiscb:recordID": "CBB545970081",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"On Trial for Reason: Science, Religion, and Culture in the Galileo Affair\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB574453505",
+    "isiscb:recordID": "CBB574453505",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Prefabrication, Patrilineality, and Intergenerational Reuse: The Ruined Third Church of Aniwa, Southern Vanuatu, and its Integration into Domestic Architecture"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB575365295",
+    "isiscb:recordID": "CBB575365295",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Architecture and urbanism in the French Atlantic empire : State, church, and society, 1604-1830\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB581303896",
+    "isiscb:recordID": "CBB581303896",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Whewell on Church and State, Science and Empire"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB597331832",
+    "isiscb:recordID": "CBB597331832",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Transforming the church interior in Renaissance Florence : screens and choir spaces from the Middle Ages to Tridentine reform"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB600929017",
+    "isiscb:recordID": "CBB600929017",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Framing the church : The social and artistic power of buttresses in French Gothic architecture\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB614164457",
+    "isiscb:recordID": "CBB614164457",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Deconstructing the Copernican and Galilean controversy with the Catholic Church"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB713217482",
+    "isiscb:recordID": "CBB713217482",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Chapels of the Cinquecento and Seicento in the churches of Rome: form, function, meaning"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB727584774",
+    "isiscb:recordID": "CBB727584774",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Blackfriars in early modern London : theater, church, and neighborhood"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB819238094",
+    "isiscb:recordID": "CBB819238094",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Theology and the Arts Course in Tudor Oxford: An Unknown Treatise on Church Government by John Case"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB863304381",
+    "isiscb:recordID": "CBB863304381",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Between scholarship and church politics : the lives of John Prideaux, 1578-1650"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB881195979",
+    "isiscb:recordID": "CBB881195979",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Chapels of the Cinquecento and Seicento in the churches of Rome: form, function, meaning\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB891805891",
+    "isiscb:recordID": "CBB891805891",
+    "@type": [
+      "bibo:Article",
+      "schema:ScholarlyArticle",
+      "isiscb:Article"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "The Materiality of Odors: Experiencing Church Burials and the Urban Environment in Early Modern Northern Sweden"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB894271491",
+    "isiscb:recordID": "CBB894271491",
+    "@type": [
+      "bibo:Chapter",
+      "schema:Chapter",
+      "isiscb:Chapter"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Emma “Mae” Dena Solomon Huettig Churchill (1911-1996)"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB894458062",
+    "isiscb:recordID": "CBB894458062",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation )",
+    "dc:title": "Review of \"A Constant State of Emergency: Paul de Kruif: Microbe Hunter and Health Activist\""
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB918102382",
+    "isiscb:recordID": "CBB918102382",
+    "@type": [
+      "bibo:Book",
+      "schema:Book",
+      "isiscb:Book"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "The Church of the Dead: The Epidemic of 1576 and the Birth of Christianity in the Americas"
+  },
+  {
+    "@context": {
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/",
+      "bibo": "http://purl.org/ontology/bibo/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+      "isiscb": "https://ontology.isiscb.org/vocabulary/",
+      "schema:name": {
+        "@id": "dc:title"
+      },
+      "isiscb:title": {
+        "@id": "dc:title"
+      },
+      "schema:author": {
+        "@id": "dc:creator"
+      },
+      "isiscb:author": {
+        "@id": "dc:creator"
+      },
+      "schema:datePublished": {
+        "@id": "dc:date"
+      },
+      "isiscb:publicationDate": {
+        "@id": "dc:date"
+      },
+      "schema:publisher": {
+        "@id": "dc:publisher"
+      },
+      "schema:about": {
+        "@id": "dc:subject"
+      },
+      "schema:inLanguage": {
+        "@id": "dc:language"
+      },
+      "schema:identifier": {
+        "@id": "dc:identifier"
+      }
+    },
+    "@id": "https://data.isiscb.org/citation/CBB947319466",
+    "isiscb:recordID": "CBB947319466",
+    "@type": [
+      "bibo:AcademicArticle",
+      "schema:Review",
+      "isiscb:Review"
+    ],
+    "isiscb:recordStatus": "Active",
+    "isiscb:recordNature": "Active (RecordStatusExplanation Inactive by default)",
+    "dc:title": "Review of \"Between scholarship and church politics : the lives of John Prideaux, 1578-1650\""
+  }
+]

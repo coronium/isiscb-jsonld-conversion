@@ -8,6 +8,7 @@ import logging
 from typing import Dict
 
 from ..base import BaseConverter
+from ..schema_mappings import get_property
 
 logger = logging.getLogger('isiscb_conversion')
 
@@ -33,19 +34,18 @@ class TitleConverter(BaseConverter):
         
         if not title:
             logger.warning(f"Empty title found for record {record_id}")
-            title = "[No title provided]"
+            title = ""
         
-        # Create basic JSON-LD structure with standard vocabularies
+        # Use the primary property from the centralized mappings
+        primary_property = get_property("title")
         jsonld = {
-            "dc:title": title,
-            "schema:name": title
+            primary_property: title
         }
         
         # Parse for subtitle if present
-        if ': ' in title:
-            main_title, subtitle = title.split(': ', 1)
-            jsonld["isiscb:Title"] = title
-            jsonld["isiscb:mainTitle"] = main_title.strip()
-            jsonld["isiscb:subtitle"] = subtitle.strip()
+        #if ': ' in title:
+        #    main_title, subtitle = title.split(': ', 1)
+        #    jsonld[get_property("title", "mainTitle")] = main_title.strip()
+        #    jsonld[get_property("title", "subtitle")] = subtitle.strip()
         
         return jsonld
