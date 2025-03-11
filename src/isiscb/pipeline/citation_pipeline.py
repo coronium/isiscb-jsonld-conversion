@@ -33,9 +33,13 @@ ensure_project_in_path()
 # Import converters with correct relative paths
 from ..converters.common.identifier import RecordIdConverter
 from ..converters.common.types import RecordTypeConverter, RecordNatureConverter
-from ..converters.common.linked_data import LinkedDataConverter  # Add this import
+from ..converters.common.linked_data import LinkedDataConverter  
+from ..converters.common.related_authorities import RelatedAuthoritiesConverter 
 from ..converters.citation.title import TitleConverter
 from ..converters.schema_mappings import get_base_context
+from ..converters.common.related_citations import RelatedCitationsConverter
+from ..converters.citation.journal_metadata import JournalMetadataConverter
+
 
 # Import validator
 from ..validators.json_ld_validator import JSONLDValidator, validate_json_ld
@@ -61,6 +65,10 @@ class CitationConverterPipeline:
             'record_nature': RecordNatureConverter(),
             'title': TitleConverter(),
             'linked_data': LinkedDataConverter(),
+            'related_authorities': RelatedAuthoritiesConverter(),
+            'related_citations': RelatedCitationsConverter(),
+            'journal_metadata': JournalMetadataConverter(),
+
             # Add more converters as they are implemented
         }
         
@@ -112,7 +120,24 @@ class CitationConverterPipeline:
             
         # Apply linked data converter
         if 'Linked Data' in row:
-            jsonld.update(self.converters['linked_data'].convert(row['Linked Data'], record_id))    
+            jsonld.update(self.converters['linked_data'].convert(row['Linked Data'], record_id))   
+        
+        # Apply Related Authorities converter
+        if 'Related Authorities' in row:
+            jsonld.update(self.converters['related_authorities'].convert(row['Related Authorities'], record_id))
+        
+        # Apply Related Citation converter    
+        if 'Related Citations' in row:
+            jsonld.update(self.converters['related_citations'].convert(row['Related Citations'], record_id))
+         
+        # Apply journal metadata converter
+        journal_fields = {
+            'Journal Link': row.get('Journal Link', None),
+            'Journal Volume': row.get('Journal Volume', None),
+            'Journal Issue': row.get('Journal Issue', None),
+            'Pages Free Text': row.get('Pages Free Text', None)
+        }
+        jsonld.update(self.converters['journal_metadata'].convert(journal_fields, record_id))
         
         # Additional converters will be applied here as they are implemented
         
