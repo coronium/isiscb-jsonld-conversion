@@ -83,8 +83,16 @@ class JSONLDValidator:
                     "dc:creator": {
                         "oneOf": [
                             {"type": "string"},
-                            {"type": "array", "items": {"type": "string"}},
-                            {"type": "object"}
+                            {"type": "object"},
+                            {
+                                "type": "array", 
+                                "items": {
+                                    "oneOf": [
+                                        {"type": "string"}, 
+                                        {"type": "object"}
+                                    ]
+                                }
+                            }
                         ]
                     },
                     "dc:date": {

@@ -64,6 +64,84 @@ AUTHORITY_TYPE_MAPPING = {
     ...
 }
 ```
+## Mappings
+
+### Authority Types
+
+In `src/isiscb/converters/schema_mappings.py`
+
+Look at the `Category Division` and `Cross-reference` and determine if those are appropriate mappings. 
+
+```
+AUTHORITY_TYPE_MAPPING = {
+    "Person": ["schema:Person", "foaf:Person"],
+    "Institution": ["schema:Organization", "foaf:Organization"],
+    "Geographic Term": ["schema:Place"],
+    "Concept": ["skos:Concept"],
+    "Time Period": ["dcterms:PeriodOfTime"],
+    "Serial Publication": ["bibo:Periodical"],
+    "Event": ["schema:Event"],
+    "Creative Work": ["schema:CreativeWork"],
+    "Category Division": ["skos:Collection"],
+    "Cross-reference": ["skos:Collection"]
+}
+```
+### Citation Type
+
+In `src/isiscb/converters/schema_mappings.py`
+
+Look at `Essay` and  `Conference Paper` and see if appropriate mapping is used. 
+
+```
+CITATION_TYPE_MAPPING = {
+    "Book": ["bibo:Book", "schema:Book"],
+    "Article": ["bibo:Article", "schema:ScholarlyArticle"],
+    "Thesis": ["bibo:Thesis", "schema:Thesis"],
+    "Chapter": ["bibo:Chapter", "schema:Chapter"],
+    "Review": ["bibo:AcademicArticle", "schema:Review"],
+    "Essay": ["bibo:AcademicArticle"],
+    "Website": ["schema:WebSite"],
+    "Conference Proceeding": ["bibo:Proceedings"],
+    "Conference Paper": ["bibo:AcademicArticle", "schema:Article"]
+}
+```
+
+### Record Status
+
+In `src/isiscb/converters/schema_mappings.py`
+
+Used to convert the CB `Record Nature` field.
+
+```
+RECORD_STATUS_MAPPING = {
+    "Active": "Active",
+    "Inactive": "Inactive",
+    "Delete": "Delete",
+    "Redirect": "Redirect"
+}
+```
+
+### Relationship Types (from CCR records)
+
+In `src/isiscb/converters/common/related_citations.py`
+
+Find standardized  vocabulary of `isReviewedBy` and `reviews`.
+
+```
+        standard_mappings = {
+            "isReviewedBy": "isiscb:isReviewedBy",
+            "reviews": "isiscb:reviews",
+            "includesSeriesArticle": "isiscb:includesSeriesArticle",
+            "isPartOf": "dcterms:isPartOf",
+            "hasPart": "dcterms:hasPart",
+            "references": "dcterms:references",
+            "isReferencedBy": "dcterms:isReferencedBy",
+            "succeeds": "dcterms:succeeds",
+            "precedes": "dcterms:precedes",
+            "replaces": "dcterms:replaces",
+            "isReplacedBy": "dcterms:isReplacedBy"
+        }
+```
 
 ## Usage in the Codebase
 

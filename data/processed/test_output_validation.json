@@ -1,0 +1,472 @@
+{
+  "total": 164,
+  "valid": 9,
+  "invalid": 155,
+  "errors": {
+    "CBB817023809": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000023541', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Joseph W. Dauben', 'name': 'Joseph W. Dauben', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB127075410": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000047670', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Hsiang-Fu Huang', 'name': 'Hsiang-Fu Huang', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB482377800": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000085908', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Peter Robertson', 'name': 'Peter Robertson', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB740994014": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000088261', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'K. Rupa', 'name': 'K. Rupa', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000104245', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'S.K. Uma', 'name': 'S.K. Uma', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000105406', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Padmaja Venugopal', 'name': 'Padmaja Venugopal', 'schema:position': '3.0', 'isiscb:position': '3.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000083308', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'S. Balachandra Rao', 'name': 'S. Balachandra Rao', 'schema:position': '4.0', 'isiscb:position': '4.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB999560319": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000059775', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'James Lequeux', 'name': 'James Lequeux', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB634965141": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000022567', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Clifford Cunningham', 'name': 'Clifford Cunningham', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB947416867": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000105406', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Padmaja Venugopal', 'name': 'Padmaja Venugopal', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000088261', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'K. Rupa', 'name': 'K. Rupa', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000104245', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'S.K. Uma', 'name': 'S.K. Uma', 'schema:position': '3.0', 'isiscb:position': '3.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000144737', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'S. Balachandra Rao', 'name': 'S. Balachandra Rao', 'schema:position': '4.0', 'isiscb:position': '4.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB467824006": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000100878', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Niels Taubert', 'name': 'Niels Taubert', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB741775051": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000166333', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Kaveh Niazi', 'name': 'Kaveh Niazi', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB371651482": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA454175264', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Kurazo 庫三 Chiba 千葉', 'name': 'Kurazo 庫三 Chiba 千葉', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB474849521": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000074691', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'C. Philipp E. Nothaft', 'name': 'C. Philipp E. Nothaft', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB017218563": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000022484', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Christopher Cullen', 'name': 'Christopher Cullen', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000049896', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Catherine Jami', 'name': 'Catherine Jami', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB465504584": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA968882534', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Sergio H. Orozco-Echeverri', 'name': 'Sergio H. Orozco-Echeverri', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA885168743', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Sebastián Molina-Betancur', 'name': 'Sebastián Molina-Betancur', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB712539411": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000031874', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Jeanette C. Fincke', 'name': 'Jeanette C. Fincke', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000047243', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Wayne Horowitz', 'name': 'Wayne Horowitz', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA570392922', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Eshbal Ratzon', 'name': 'Eshbal Ratzon', 'schema:position': '3.0', 'isiscb:position': '3.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB695432129": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA883977357', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Daniel J. Worden', 'name': 'Daniel J. Worden', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB181398470": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000099021', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Giorgio Strano', 'name': 'Giorgio Strano', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB810066516": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA475952777', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Richard de Grijs', 'name': 'Richard de Grijs', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB034146345": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000075934', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Wayne Orchiston', 'name': 'Wayne Orchiston', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA594266308', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'William Wells', 'name': 'William Wells', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB671832965": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000050950', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Alexander Jones', 'name': 'Alexander Jones', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB370732113": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000038845', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'W. M. Goss', 'name': 'W. M. Goss', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000047006', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Claire Hooker', 'name': 'Claire Hooker', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA382840352', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Ronald D. Ekers', 'name': 'Ronald D. Ekers', 'schema:position': '3.0', 'isiscb:position': '3.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB319339923": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000050497', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Xiaoyuan Jiang', 'name': 'Xiaoyuan Jiang', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB331621161": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000059525', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Pierre Léna', 'name': 'Pierre Léna', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB818652282": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA074054089', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Lukáš Lička', 'name': 'Lukáš Lička', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB093646428": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA601621588', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Liyuan Liu', 'name': 'Liyuan Liu', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB894984103": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA140560408', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Martin Schneider', 'name': 'Martin Schneider', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB455203532": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000112221', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Jia-Ming Ying', 'name': 'Jia-Ming Ying', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB218561023": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000094739', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Luca Simeoni', 'name': 'Luca Simeoni', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB748797214": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000095960', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Robert W. Smith', 'name': 'Robert W. Smith', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB414162819": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000023097', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Benno Van Dalen', 'name': 'Benno Van Dalen', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB491588141": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000022484', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Christopher Cullen', 'name': 'Christopher Cullen', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB745160063": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA877322048', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Anuj Misra', 'name': 'Anuj Misra', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB497709333": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA933769015', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'K.S. Mahesh', 'name': 'K.S. Mahesh', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000088261', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'K. Rupa', 'name': 'K. Rupa', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000105406', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Padmaja Venugopal', 'name': 'Padmaja Venugopal', 'schema:position': '3.0', 'isiscb:position': '3.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000144737', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'S. Balachandra Rao', 'name': 'S. Balachandra Rao', 'schema:position': '4.0', 'isiscb:position': '4.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB801119021": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000017081', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Josep Casulleras', 'name': 'Josep Casulleras', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB132485751": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000097267', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Ivan Šprajc', 'name': 'Ivan Šprajc', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB937577104": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA565950303', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Phillip Helbig', 'name': 'Phillip Helbig', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB208937571": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA941562397', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Peter Foukal', 'name': 'Peter Foukal', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB525692865": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA301377635', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'K. T. Chyży', 'name': 'K. T. Chyży', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA568816015', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'J. Kijak', 'name': 'J. Kijak', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA175352618', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'A. Kus', 'name': 'A. Kus', 'schema:position': '3.0', 'isiscb:position': '3.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA704877054', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'M. Soida', 'name': 'M. Soida', 'schema:position': '4.0', 'isiscb:position': '4.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000109610', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'R. Wielebinski', 'name': 'R. Wielebinski', 'schema:position': '5.0', 'isiscb:position': '5.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB945382723": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000073032', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Tsuko Nakamura', 'name': 'Tsuko Nakamura', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB803542657": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA892085555', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Tomokazu Kogure', 'name': 'Tomokazu Kogure', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB598471442": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA072893242', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Christian Flow', 'name': 'Christian Flow', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB437538036": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA129263168', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Peter Anderson', 'name': 'Peter Anderson', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000075934', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Wayne Orchiston', 'name': 'Wayne Orchiston', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB061794277": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000094317', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'B. S. Shylaja', 'name': 'B. S. Shylaja', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA253670633', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Seetharam Javagal', 'name': 'Seetharam Javagal', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB547457085": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000018982', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Luca Ciancio', 'name': 'Luca Ciancio', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB358409422": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA366042375', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Evelyn Koch', 'name': 'Evelyn Koch', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA874613038', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Florian Kläger', 'name': 'Florian Kläger', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB945178406": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000108723', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Harry Wendt', 'name': 'Harry Wendt', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB371392428": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA597252413', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Marion Dolan', 'name': 'Marion Dolan', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB968814356": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000074691', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'C. Philipp E. Nothaft', 'name': 'C. Philipp E. Nothaft', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB769076543": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000056013', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Richard L. Kremer', 'name': 'Richard L. Kremer', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB365172262": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000157877', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Josefina Rodríguez Arribas', 'name': 'Josefina Rodríguez Arribas', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000056013', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Richard L. Kremer', 'name': 'Richard L. Kremer', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB957389708": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000011694', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Alan C. Bowen', 'name': 'Alan C. Bowen', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB633912483": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000037455', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Gregory S. Girolami', 'name': 'Gregory S. Girolami', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB217469911": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA877322048', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Anuj Misra', 'name': 'Anuj Misra', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB053148693": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA318595735', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'John Hill', 'name': 'John Hill', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB873799190": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000110889', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Jarosław Włodarczyk', 'name': 'Jarosław Włodarczyk', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB326023289": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000074691', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'C. Philipp E. Nothaft', 'name': 'C. Philipp E. Nothaft', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB308299900": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000108723', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Harry Wendt', 'name': 'Harry Wendt', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB508254323": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000075793', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Omodeo, Pietro Daniel', 'name': 'Omodeo, Pietro Daniel', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB254638856": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA388615782', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Ruth Boreham', 'name': 'Ruth Boreham', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB620595518": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA309455223', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Giles Gasper', 'name': 'Giles Gasper', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB217808867": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000098108', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Wolfgang Steinicke', 'name': 'Wolfgang Steinicke', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB209903000": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000013728', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Glen Van Brummelen', 'name': 'Glen Van Brummelen', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB223187314": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000166333', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Kaveh Niazi', 'name': 'Kaveh Niazi', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB074491056": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000166120', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'David Baneke', 'name': 'David Baneke', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB140325042": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA597252413', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Marion Dolan', 'name': 'Marion Dolan', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB276671131": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA021576546', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Huang Zongbei', 'name': 'Huang Zongbei', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB462869804": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000022567', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Cunningham Clifford', 'name': 'Cunningham Clifford', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB266408211": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA087913087', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Sai Shetye', 'name': 'Sai Shetye', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000041878', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Ganesh Halkare', 'name': 'Ganesh Halkare', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000099584', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Aniket Sule', 'name': 'Aniket Sule', 'schema:position': '3.0', 'isiscb:position': '3.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB626294987": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA770110683', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Gonzalo Recio', 'name': 'Gonzalo Recio', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB041494916": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA899138397', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Christine Roughan', 'name': 'Christine Roughan', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB700464185": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA282408518', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Carole A. Jackson', 'name': 'Carole A. Jackson', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB256450620": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000074691', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'C. Philipp E. Nothaft', 'name': 'C. Philipp E. Nothaft', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB796464353": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000011028', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Maria Teresa Borgato', 'name': 'Maria Teresa Borgato', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000078616', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Luigi Pepe', 'name': 'Luigi Pepe', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB314301180": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA597252413', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Marion Dolan', 'name': 'Marion Dolan', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB208171632": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000075934', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Wayne Orchiston', 'name': 'Wayne Orchiston', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB857220193": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000025589', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Steven J. Dick', 'name': 'Steven J. Dick', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB380736744": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000144737', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'S. Balachandra Rao', 'name': 'S. Balachandra Rao', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB626941058": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA033088500', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Krystal De Napoli', 'name': 'Krystal De Napoli', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB022445290": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000155396', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Daniel Patrick Morgan', 'name': 'Daniel Patrick Morgan', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB956666969": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000025371', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'David DeVorkin', 'name': 'David DeVorkin', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000056319', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'E.C. Krupp', 'name': 'E.C. Krupp', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB708901178": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA661691805', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Jefferson Sauter', 'name': 'Jefferson Sauter', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000094866', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Irakli Simonia', 'name': 'Irakli Simonia', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000075934', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Wayne Orchiston', 'name': 'Wayne Orchiston', 'schema:position': '3.0', 'isiscb:position': '3.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB752797943": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000101249', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Joseph S. Tenn', 'name': 'Joseph S. Tenn', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB982047160": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000166443', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Sajjad Nikfahm-Khubravan', 'name': 'Sajjad Nikfahm-Khubravan', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB881861566": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000103818', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Simone Turchetti', 'name': 'Simone Turchetti', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB349181909": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000075934', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Wayne Orchiston', 'name': 'Wayne Orchiston', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA150165894', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Darunee Lingling Orchiston', 'name': 'Darunee Lingling Orchiston', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB770458313": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000052119', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'R.C. Kapoor', 'name': 'R.C. Kapoor', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000075934', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Wayne Orchiston', 'name': 'Wayne Orchiston', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB900932232": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA150471693', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Peeravit Koad', 'name': 'Peeravit Koad', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA131867778', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Thatdao Rakmak', 'name': 'Thatdao Rakmak', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB146260272": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000089339', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Julio Samsó', 'name': 'Julio Samsó', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB851300964": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000075735', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Donald W. Olson', 'name': 'Donald W. Olson', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB544078385": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000075934', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Wayne Orchiston', 'name': 'Wayne Orchiston', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000085908', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Peter Robertson', 'name': 'Peter Robertson', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000099629', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Woodruff T. Sullivan III', 'name': 'Woodruff T. Sullivan III', 'schema:position': '3.0', 'isiscb:position': '3.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB773891207": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000068320', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Michael Mendillo', 'name': 'Michael Mendillo', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB343013295": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000165941', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Stella Cottam', 'name': 'Stella Cottam', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000105382', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'John E. Ventre', 'name': 'John E. Ventre', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB473722565": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA540900345', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'S. Prashant Kumar', 'name': 'S. Prashant Kumar', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB242463216": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA565358793', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Rebecca Robinson', 'name': 'Rebecca Robinson', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB601209211": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000016428', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Luís Miguel Carolino', 'name': 'Luís Miguel Carolino', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB116831984": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA150646402', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Gianamar Giovannetti-Singh', 'name': 'Gianamar Giovannetti-Singh', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB280920898": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000159317', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Marinus Anthony van der Sluijs', 'name': 'Marinus Anthony van der Sluijs', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB149799298": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000010861', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Luisa Bonolis', 'name': 'Luisa Bonolis', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000153487', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Juan-Andres Leon', 'name': 'Juan-Andres Leon', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB051366762": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000050497', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Xiaoyuan Jiang', 'name': 'Xiaoyuan Jiang', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB111045292": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000094317', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'B. S. Shylaja', 'name': 'B. S. Shylaja', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA253670633', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Seetharam Javagal', 'name': 'Seetharam Javagal', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB474570564": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000077008', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'David Pankenier', 'name': 'David Pankenier', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB323325110": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000022567', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Cunningham Clifford', 'name': 'Cunningham Clifford', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB816787811": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000022567', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Cunningham Clifford', 'name': 'Cunningham Clifford', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB705379912": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA129263168', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Peter E. Anderson', 'name': 'Peter E. Anderson', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000075934', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Wayne Orchiston', 'name': 'Wayne Orchiston', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB533483661": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000060738', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Bernard Lightman', 'name': 'Bernard Lightman', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB487780802": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000080545', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Kim Plofker', 'name': 'Kim Plofker', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB319857855": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000101388', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Dario Tessicini', 'name': 'Dario Tessicini', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB612142748": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000074691', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'C. Philipp E. Nothaft', 'name': 'C. Philipp E. Nothaft', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB850596092": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA710113704', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Enrico Massaro', 'name': 'Enrico Massaro', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA958163679', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Annarita Pizzo', 'name': 'Annarita Pizzo', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000104417', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Peter Usher', 'name': 'Peter Usher', 'schema:position': '3.0', 'isiscb:position': '3.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB955541080": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA792775765', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Christopher Heaney', 'name': 'Christopher Heaney', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB445327472": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA135440509', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Tomislav Bilic', 'name': 'Tomislav Bilic', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB799308149": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA615382140', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Moema de Rezende Vergara', 'name': 'Moema de Rezende Vergara', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB671650500": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA158643517', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Carmin Giacomo', 'name': 'Carmin Giacomo', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB708160221": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000110889', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Jarosław Włodarczyk', 'name': 'Jarosław Włodarczyk', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB596129893": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA186538812', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Martin Bush', 'name': 'Martin Bush', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB339014873": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000094317', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'B.S. Shylaja', 'name': 'B.S. Shylaja', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA432011162', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Seetharama Javagal', 'name': 'Seetharama Javagal', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB526443331": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA102334724', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Rosa M. Ros', 'name': 'Rosa M. Ros', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA112406201', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Beatriz Garcia', 'name': 'Beatriz Garcia', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA591149618', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Steven Gullberg', 'name': 'Steven Gullberg', 'schema:position': '3.0', 'isiscb:position': '3.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA798706770', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Javier Moldón', 'name': 'Javier Moldón', 'schema:position': '4.0', 'isiscb:position': '4.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA257226482', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Patricio Rojo', 'name': 'Patricio Rojo', 'schema:position': '5.0', 'isiscb:position': '5.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB947474761": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000104400', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Gary Urton', 'name': 'Gary Urton', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB285359378": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000063683', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Giulio Magli', 'name': 'Giulio Magli', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB281957989": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA597252413', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Marion Dolan', 'name': 'Marion Dolan', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000022567', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Clifford Cunningham', 'name': 'Clifford Cunningham', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB317080745": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA562590573', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Kenneth Kellermann', 'name': 'Kenneth Kellermann', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA584649563', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Archives Dept Associated Univ Inc NRAO', 'name': 'Archives Dept Associated Univ Inc NRAO', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA716096933', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Sierra Smith', 'name': 'Sierra Smith', 'schema:position': '3.0', 'isiscb:position': '3.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB466916356": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000095960', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Robert W. Smith', 'name': 'Robert W. Smith', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB430712834": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000113472', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Endre Zsoldos', 'name': 'Endre Zsoldos', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB451209861": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA906090898', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Emily Simpson', 'name': 'Emily Simpson', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB873091723": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000011944', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Lis Brack-Bernsen', 'name': 'Lis Brack-Bernsen', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB448166319": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000095405', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Charlotte Sleigh', 'name': 'Charlotte Sleigh', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB400776715": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000075934', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Wayne Orchiston', 'name': 'Wayne Orchiston', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000165342', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Martin George', 'name': 'Martin George', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000108723', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Harry Wendt', 'name': 'Harry Wendt', 'schema:position': '3.0', 'isiscb:position': '3.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000109610', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Richard Wielebinski', 'name': 'Richard Wielebinski', 'schema:position': '4.0', 'isiscb:position': '4.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB079817226": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA475952777', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Richard de Grijs', 'name': 'Richard de Grijs', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA174101763', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Andrew P. Jacob', 'name': 'Andrew P. Jacob', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB783268298": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000075934', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Wayne Orchiston', 'name': 'Wayne Orchiston', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA462994609', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'John Drummond', 'name': 'John Drummond', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000094317', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'B. S. Shylaja', 'name': 'B. S. Shylaja', 'schema:position': '3.0', 'isiscb:position': '3.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB667334113": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA751821121', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Dante L. Ambrosio', 'name': 'Dante L. Ambrosio', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB658895573": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA839456886', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'John Steele', 'name': 'John Steele', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB423808545": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000102239', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Anne Tihon', 'name': 'Anne Tihon', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB467087894": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000038220', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Bernard R. Goldstein', 'name': 'Bernard R. Goldstein', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000046917', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Giora Hon', 'name': 'Giora Hon', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB202341709": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000394541', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Elaine Bander', 'name': 'Elaine Bander', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB290452195": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000038220', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Bernard R. Goldstein', 'name': 'Bernard R. Goldstein', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB872104248": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000103362', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Virginia Trimble', 'name': 'Virginia Trimble', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB953612756": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA094434176', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Laura Follesa', 'name': 'Laura Follesa', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB278035922": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000083344', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Pedro M. P. Raposo', 'name': 'Pedro M. P. Raposo', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB194032912": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA448663849', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Guy Jano Trangoš', 'name': 'Guy Jano Trangoš', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB912917194": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA118710541', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Bruce Love', 'name': 'Bruce Love', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB285066686": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000075934', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'W. Orchiston', 'name': 'W. Orchiston', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA150165894', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Darunee Lingling Orchiston', 'name': 'Darunee Lingling Orchiston', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000037478', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Lars Gislén', 'name': 'Lars Gislén', 'schema:position': '3.0', 'isiscb:position': '3.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000165342', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Martin George', 'name': 'Martin George', 'schema:position': '4.0', 'isiscb:position': '4.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA818814965', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Boonrucksar Soonthornthum', 'name': 'Boonrucksar Soonthornthum', 'schema:position': '5.0', 'isiscb:position': '5.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000058321', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Françoise Launay', 'name': 'Françoise Launay', 'schema:position': '6.0', 'isiscb:position': '6.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000024094', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Suzanne Débarbat', 'name': 'Suzanne Débarbat', 'schema:position': '7.0', 'isiscb:position': '7.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000048444', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Matthieu Husson', 'name': 'Matthieu Husson', 'schema:position': '8.0', 'isiscb:position': '8.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB569389751": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000075934', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Wayne Orchiston', 'name': 'Wayne Orchiston', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA150165894', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Darunee Lingling Orchiston', 'name': 'Darunee Lingling Orchiston', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB190422954": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000102395', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Luís Tirapicos', 'name': 'Luís Tirapicos', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB917220887": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000044870', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Klaus-Dieter Herbst', 'name': 'Klaus-Dieter Herbst', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB677320872": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000104417', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Peter D. Usher', 'name': 'Peter D. Usher', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB800713415": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000071540', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Robert G. Morrison', 'name': 'Robert G. Morrison', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB932674670": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA342725823', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'M. Willis Monroe', 'name': 'M. Willis Monroe', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB614559477": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA770110683', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Gonzalo L. Recio', 'name': 'Gonzalo L. Recio', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB277706268": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA591149618', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Steven R. Gullberg', 'name': 'Steven R. Gullberg', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB137976102": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000050497', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Xiaoyuan Jiang', 'name': 'Xiaoyuan Jiang', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB492633899": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000093996', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Yunli Shi', 'name': 'Yunli Shi', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB964074305": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA329545110', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Alexander Stoeger', 'name': 'Alexander Stoeger', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB957708276": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000068670', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Ad Meskens', 'name': 'Ad Meskens', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB506910086": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA966878965', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'William M. Barton', 'name': 'William M. Barton', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB820142243": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA119587469', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Alberto Bardi', 'name': 'Alberto Bardi', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}, {'@id': 'https://data.isiscb.org/authority/CBA000075793', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Pietro Daniel Omodeo', 'name': 'Pietro Daniel Omodeo', 'schema:position': '2.0', 'isiscb:position': '2.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ],
+    "CBB888037190": [
+      "dc:creator: [{'@id': 'https://data.isiscb.org/authority/CBA000022567', '@type': ['schema:Person', 'foaf:Person'], 'schema:name': 'Clifford Cunningham', 'name': 'Clifford Cunningham', 'schema:position': '1.0', 'isiscb:position': '1.0', 'schema:roleName': 'author', 'isiscb:role': 'author'}] is not valid under any of the given schemas"
+    ]
+  }
+}

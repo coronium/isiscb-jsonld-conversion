@@ -10,7 +10,12 @@ import pandas as pd
 from typing import Dict, List, Any, Optional
 
 from ..base import BaseConverter
-from ..schema_mappings import get_relationship_property, get_relationship_uri
+from ..schema_mappings import (
+    get_relationship_property, 
+    get_relationship_uri,
+    get_normalized_relation_type,
+    CITATION_RELATIONSHIP_TYPES
+)
 
 logger = logging.getLogger('isiscb_conversion')
 
@@ -138,7 +143,7 @@ class RelatedCitationsConverter(BaseConverter):
                 
             # Split only on the first space to handle values that may contain spaces
             key, value = part.split(" ", 1)
-            result[key] = value
+            result[key] = value.strip()
             
         return result
     
@@ -152,21 +157,7 @@ class RelatedCitationsConverter(BaseConverter):
         Returns:
             Normalized relationship type as camelCase
         """
-        # Trim whitespace
-        relationship_type = relationship_type.strip()
-        
-        # Replace spaces with empty string and capitalize first letter of each word
-        words = [word.strip() for word in relationship_type.split()]
-        if not words:
-            return "unknownRelation"
-            
-        # First word lowercase, rest capitalized - camelCase format
-        camel_case = words[0].lower()
-        for word in words[1:]:
-            if word:
-                camel_case += word[0].upper() + word[1:].lower()
-                
-        return camel_case
+        return get_normalized_relation_type(relationship_type)
     
     def _add_normalized_relationships(self, result: Dict, relationships_by_type: Dict) -> None:
         """
@@ -176,25 +167,10 @@ class RelatedCitationsConverter(BaseConverter):
             result: The result dictionary to update
             relationships_by_type: Dictionary of relationships grouped by type
         """
-        # Map of normalized relationship types to standard property names
-        standard_mappings = {
-            "isReviewedBy": "isiscb:isReviewedBy",
-            "reviews": "isiscb:reviews",
-            "includesSeriesArticle": "isiscb:includesSeriesArticle",
-            "isPartOf": "dcterms:isPartOf",
-            "hasPart": "dcterms:hasPart",
-            "references": "dcterms:references",
-            "isReferencedBy": "dcterms:isReferencedBy",
-            "succeeds": "dcterms:succeeds",
-            "precedes": "dcterms:precedes",
-            "replaces": "dcterms:replaces",
-            "isReplacedBy": "dcterms:isReplacedBy"
-        }
-        
         # Process each relationship type
         for norm_type, relationships in relationships_by_type.items():
             # Get the standard property name or create a custom one
-            property_name = standard_mappings.get(norm_type, f"isiscb:{norm_type}")
+            property_name = get_relationship_property(norm_type)
             
             # Add the relationships to the result
             result[property_name] = self._process_citations(relationships)

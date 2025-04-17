@@ -19,6 +19,7 @@ NAMESPACES = {
     "foaf": "http://xmlns.com/foaf/0.1/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "vivo": "http://vivoweb.org/ontology/core#",
     "isiscb": "https://ontology.isiscb.org/vocabulary/"
 }
 
@@ -78,6 +79,7 @@ AUTHORITY_RELATIONSHIP_MAPPINGS = {
 }
 
 # Relationship type mappings for Related Authorities
+# Relationship type mappings for Related Authorities
 AUTHORITY_RELATIONSHIP_TYPES = {
     "AUTHOR": {
         "primary": "dc:creator",
@@ -86,12 +88,14 @@ AUTHORITY_RELATIONSHIP_TYPES = {
     },
     "EDITOR": {
         "primary": "schema:editor",
-        "equivalents": ["dc:contributor"],
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:contributor"],  # Editor is a type of contributor
         "uri": "isiscb:editor"
     },
     "ADVISOR": {
-        "primary": "schema:advisor",
-        "equivalents": ["dc:contributor"],
+        "primary": "vivo:AdvisorRole",
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:contributor"],  # Advisor is a type of contributor
         "uri": "isiscb:advisor"
     },
     "CONTRIBUTOR": {
@@ -101,7 +105,8 @@ AUTHORITY_RELATIONSHIP_TYPES = {
     },
     "TRANSLATOR": {
         "primary": "schema:translator",
-        "equivalents": ["dc:contributor"],
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:contributor"],  # Translator is a type of contributor
         "uri": "isiscb:translator"
     },
     "SUBJECT": {
@@ -110,8 +115,8 @@ AUTHORITY_RELATIONSHIP_TYPES = {
         "uri": "isiscb:subject"
     },
     "CATEGORY": {
-        "primary": "isiscb:category",
-        "equivalents": ["dc:type"],
+        "primary": "dc:subject",
+        "equivalents": ["schema:about"],
         "uri": "isiscb:category"
     },
     "PUBLISHER": {
@@ -120,13 +125,14 @@ AUTHORITY_RELATIONSHIP_TYPES = {
         "uri": "isiscb:publisher"
     },
     "SCHOOL": {
-        "primary": "schema:school",
-        "equivalents": [],
+        "primary": "bibo:degreeGrantor",
+        "equivalents": ["schema:CollegeOrUniversity"],
+        "subPropertyOf": ["dc:publisher"],  # School is a specific kind of publisher
         "uri": "isiscb:school"
     },
     "INSTITUTION": {
         "primary": "isiscb:institution",
-        "equivalents": ["schema:affiliation"],
+        "equivalents": [],
         "uri": "isiscb:institution"
     },
     "MEETING": {
@@ -145,23 +151,27 @@ AUTHORITY_RELATIONSHIP_TYPES = {
         "uri": "isiscb:bookSeries"
     },
     "COMMITTEE_MEMBER": {
-        "primary": "isiscb:committeeMember",
-        "equivalents": ["dc:contributor"],
+        "primary": "vivo:CommitteeMembership",
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:contributor"],  # Committee member is a type of contributor
         "uri": "isiscb:committeeMember"
     },
     "ORGANIZER": {
         "primary": "isiscb:organizer",
-        "equivalents": ["dc:contributor"],
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:contributor"],  # Organizer is a type of contributor
         "uri": "isiscb:organizer"
     },
     "INTERVIEWER": {
         "primary": "isiscb:interviewer",
-        "equivalents": ["dc:contributor"],
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:contributor"],  # Interviewer is a type of contributor
         "uri": "isiscb:interviewer"
     },
     "GUEST": {
         "primary": "isiscb:guest",
-        "equivalents": ["dc:contributor"],
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:contributor"],  # Guest is a type of contributor
         "uri": "isiscb:guest"
     },
     "CREATOR": {
@@ -171,47 +181,56 @@ AUTHORITY_RELATIONSHIP_TYPES = {
     },
     "PRODUCER": {
         "primary": "schema:producer",
-        "equivalents": ["dc:contributor"],
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:contributor"],  # Producer is a type of contributor
         "uri": "isiscb:producer"
     },
     "DIRECTOR": {
         "primary": "schema:director",
-        "equivalents": ["dc:contributor"],
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:contributor"],  # Director is a type of contributor
         "uri": "isiscb:director"
     },
     "WRITER": {
         "primary": "schema:author",
-        "equivalents": ["dc:creator"],
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:creator"],  # Writer is a type of creator
         "uri": "isiscb:writer"
     },
     "PERFORMER": {
         "primary": "schema:performer",
-        "equivalents": ["dc:contributor"],
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:contributor"],  # Performer is a type of contributor
         "uri": "isiscb:performer"
     },
     "COLLECTOR": {
         "primary": "isiscb:collector",
-        "equivalents": ["dc:contributor"],
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:contributor"],  # Collector is a type of contributor
         "uri": "isiscb:collector"
     },
     "ARCHIVIST": {
         "primary": "isiscb:archivist",
-        "equivalents": ["dc:contributor"],
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:contributor"],  # Archivist is a type of contributor
         "uri": "isiscb:archivist"
     },
     "RESEARCHER": {
         "primary": "isiscb:researcher",
-        "equivalents": ["dc:contributor"],
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:contributor"],  # Researcher is a type of contributor
         "uri": "isiscb:researcher"
     },
     "DEVELOPER": {
         "primary": "isiscb:developer",
-        "equivalents": ["dc:contributor"],
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:contributor"],  # Developer is a type of contributor
         "uri": "isiscb:developer"
     },
     "COMPILER": {
         "primary": "isiscb:compiler",
-        "equivalents": ["dc:contributor"],
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:contributor"],  # Compiler is a type of contributor
         "uri": "isiscb:compiler"
     },
     "AWARDEE": {
@@ -221,12 +240,14 @@ AUTHORITY_RELATIONSHIP_TYPES = {
     },
     "OFFICER": {
         "primary": "isiscb:officer",
-        "equivalents": ["dc:contributor"],
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:contributor"],  # Officer is a type of contributor
         "uri": "isiscb:officer"
     },
     "HOST": {
         "primary": "isiscb:host",
-        "equivalents": ["dc:contributor"],
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:contributor"],  # Host is a type of contributor
         "uri": "isiscb:host"
     },
     "DISTRIBUTOR": {
@@ -246,11 +267,11 @@ AUTHORITY_RELATIONSHIP_TYPES = {
     },
     "PRESENTING_GROUP": {
         "primary": "isiscb:presentingGroup",
-        "equivalents": ["dc:contributor"],
+        "equivalents": [],  # Remove from equivalents
+        "subPropertyOf": ["dc:contributor"],  # Presenting group is a type of contributor
         "uri": "isiscb:presentingGroup"
     }
 }
-
 # All property mappings dictionary
 ALL_MAPPINGS = {
     "title": TITLE_MAPPINGS,
@@ -339,7 +360,6 @@ RECORD_STATUS_MAPPING = {
     "Delete": "Delete",
     "Redirect": "Redirect"
 }
-
 def get_context_mappings() -> Dict[str, Any]:
     """
     Generate context mappings for JSON-LD.
@@ -358,9 +378,19 @@ def get_context_mappings() -> Dict[str, Any]:
     # Add relationship equivalences
     for rel_type, rel_mapping in AUTHORITY_RELATIONSHIP_TYPES.items():
         primary = rel_mapping["primary"]
-        for equivalent in rel_mapping["equivalents"]:
+        
+        # Add equivalent properties (bidirectional mapping)
+        for equivalent in rel_mapping.get("equivalents", []):
             if equivalent not in context:  # Avoid overwriting existing mappings
                 context[equivalent] = {"@id": primary}
+        
+        # Add hierarchical relationships (unidirectional mapping)
+        if "subPropertyOf" in rel_mapping:
+            # Define that this property is a subproperty of another
+            context[primary] = {
+                "@id": primary,
+                "@subPropertyOf": rel_mapping["subPropertyOf"]
+            }
     
     return context
 
@@ -401,26 +431,6 @@ def get_property(mapping_key: str, extension_key: str = None) -> str:
     # Return the primary property
     return mapping["primary"]
 
-# Function to get relationship property from type
-def get_relationship_property(relationship_type):
-    """
-    Get the appropriate property URI for a relationship type.
-    
-    Args:
-        relationship_type: Type of relationship (e.g., "AUTHOR", "SUBJECT")
-        
-    Returns:
-        Property URI to use for the relationship
-    """
-    # Handle case variations
-    relationship_type = relationship_type.upper()
-    
-    if relationship_type in AUTHORITY_RELATIONSHIP_TYPES:
-        return AUTHORITY_RELATIONSHIP_TYPES[relationship_type]["primary"]
-    else:
-        # For unknown types, create a custom property
-        return f"isiscb:{relationship_type.lower()}"
-
 # Function to get relationship URI from type
 def get_relationship_property(relationship_type):
     """Get property URI for a relationship type."""
@@ -443,3 +453,32 @@ def get_relationship_uri(relationship_type):
         return CITATION_RELATIONSHIP_TYPES[relationship_type]["uri"]
     else:
         return f"isiscb:{relationship_type.lower()}"
+    
+# In schema_mappings.py - update the helper function
+def get_normalized_relation_type(relationship_type: str) -> str:
+    """
+    Get the normalized form of a relationship type.
+    
+    Args:
+        relationship_type: Original relationship type string
+        
+    Returns:
+        Normalized relationship type (camelCase)
+    """
+    # First try direct mapping from the dictionary
+    upper_type = relationship_type.upper().replace(' ', '')
+    if upper_type in CITATION_RELATIONSHIP_TYPES:
+        return CITATION_RELATIONSHIP_TYPES[upper_type].get("normalized", "")
+    
+    # If not found, normalize manually
+    words = [word.strip() for word in relationship_type.split()]
+    if not words:
+        return "unknownRelation"
+        
+    # First word lowercase, rest capitalized - camelCase format
+    camel_case = words[0].lower()
+    for word in words[1:]:
+        if word:
+            camel_case += word[0].upper() + word[1:].lower()
+            
+    return camel_case    

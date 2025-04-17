@@ -31,15 +31,16 @@ from src.isiscb.utils.paths import ensure_project_in_path, get_data_paths
 ensure_project_in_path()
 
 # Import converters with correct relative paths
+from ..converters.schema_mappings import get_base_context
 from ..converters.common.identifier import RecordIdConverter
 from ..converters.common.types import RecordTypeConverter, RecordNatureConverter
 from ..converters.common.linked_data import LinkedDataConverter  
 from ..converters.common.related_authorities import RelatedAuthoritiesConverter 
-from ..converters.citation.title import TitleConverter
-from ..converters.schema_mappings import get_base_context
 from ..converters.common.related_citations import RelatedCitationsConverter
+from ..converters.citation.title import TitleConverter
+from ..converters.citation.publication_details import PublicationDetailsConverter
 from ..converters.citation.journal_metadata import JournalMetadataConverter
-
+from ..converters.citation.language import LanguageConverter
 
 # Import validator
 from ..validators.json_ld_validator import JSONLDValidator, validate_json_ld
@@ -68,6 +69,8 @@ class CitationConverterPipeline:
             'related_authorities': RelatedAuthoritiesConverter(),
             'related_citations': RelatedCitationsConverter(),
             'journal_metadata': JournalMetadataConverter(),
+            'publication_details': PublicationDetailsConverter(),
+            'language':LanguageConverter()
 
             # Add more converters as they are implemented
         }
@@ -138,6 +141,22 @@ class CitationConverterPipeline:
             'Pages Free Text': row.get('Pages Free Text', None)
         }
         jsonld.update(self.converters['journal_metadata'].convert(journal_fields, record_id))
+        
+        # Apply publication details converter
+        publication_fields = {
+            'Year of publication': row.get('Year of publication', None),
+            'Place Publisher': row.get('Place Publisher', None),
+            'Edition Details': row.get('Edition Details', None),
+            'Physical Details': row.get('Physical Details', None),
+            'Extent': row.get('Extent', None),
+            'Language': row.get('Language', None),
+            'ISBN': row.get('ISBN', None)
+        }
+        jsonld.update(self.converters['publication_details'].convert(publication_fields, record_id))
+        
+        # Apply language converter
+        jsonld.update(self.converters['language'].convert(row['Language'], record_id))
+            
         
         # Additional converters will be applied here as they are implemented
         

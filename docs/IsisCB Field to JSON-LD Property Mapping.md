@@ -4,11 +4,11 @@ This document provides a mapping between the original CSV fields from IsisCB rec
 
 ## Citation and Authority Common Fields
 
-| Original Field      | JSON-LD Property       | Data Type    | Allowed Values / Format / Notes          |
+| Original Field      | JSON-LD Property       | Data Type    | Allowed Values / Format / Notes   *(See `Schema Mappings.md` for mappings of the CB terms used here.)*        |
 |---------------------|------------------------|--------------|-------------------------------------------|
-| Record ID           | isiscb:recordID        | string       | Citations: `CBB\d+` (e.g., CBB001180697)<br>Authorities: `CBA\d+` (e.g., CBA000144339)  |
-| Record Type         | isiscb:recordType      | string       | **Citations**: Book, Article, Chapter, Review, Essay, Thesis, Conference Proceeding, Conference Paper, Website, Report<br>**Authorities**: Person, Institution, Geographic Term, Concept, Time Period, Serial Publication, Event, Creative Work, Category Division, Cross-reference, Bibliographic List |
-| Record Nature       | isiscb:recordNature    | string       | Starts with: Active, Delete, Inactive, Redirect<br>Often includes "(RecordStatusExplanation *text*)" suffix |
+| **Record ID**           | isiscb:recordID    (should this be some starndr identificer, permalink or something?)    | string       | Citations: `CBB\d+` (e.g., CBB001180697)<br>Authorities: `CBA\d+` (e.g., CBA000144339)  |
+| **Record Type**         | isiscb:recordType      | string       | **Citations**: Book, Article, Chapter, Review, Essay, Thesis, Conference Proceeding, Conference Paper, Website, Report<br>**Authorities**: Person, Institution, Geographic Term, Concept, Time Period, Serial Publication, Event, Creative Work, Category Division, Cross-reference, Bibliographic List.  |
+| **Record Nature**       | isiscb:recordNature    | string       | Starts with: Active, Delete, Inactive, Redirect<br>Often includes "(RecordStatusExplanation *text*)" suffix |
 | Record Action       | isiscb:recordAction    | string       | Processing instruction (appears to be internal)                     |
 | Description         | dc:description         | string/object| Variable length text, may contain multiple paragraphs<br>For authorities: may include biographical information, AKA names, Wikipedia links |
 | Subjects            | dc:subject             | array        | References to authority records, delimited in original by double slashes (//) |
@@ -291,3 +291,8 @@ To effectively implement this schema, the following approaches are recommended:
 4. **Address Date Format Variations**:
    - Patterns observed: simple ranges ("1922-2007"), approximate dates ("ca. 1077"), centuries ("13th century")
    - Create a normalized year field for sorting/filtering while preserving original text
+
+   
+# Mappings
+
+``
