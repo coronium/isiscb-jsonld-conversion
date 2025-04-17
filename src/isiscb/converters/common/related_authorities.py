@@ -7,9 +7,10 @@ that connects citations to authority records with typed relationships.
 
 import logging
 import re
+import pandas as pd
 from typing import Dict, List, Any, Optional, Tuple
 
-from ..base import BaseConverter
+from ..base import BaseConverter, ConverterException
 from ..schema_mappings import get_relationship_property, get_relationship_uri
 
 logger = logging.getLogger('isiscb_conversion')
@@ -53,7 +54,8 @@ class RelatedAuthoritiesConverter(BaseConverter):
             "Distributor", "Maintaining_Institution", "Presenting_Group",
             "Awardee", "Officer", "Host", "Interviewer", "Organizer"
         ]
-        
+    
+
     def _convert_impl(self, value: str, record_id: str) -> Dict:
         """
         Convert Related Authorities field to JSON-LD format.
@@ -67,7 +69,7 @@ class RelatedAuthoritiesConverter(BaseConverter):
         """
         if not value or value.strip() == "":
             return {}
-            
+                    
         # Parse entries and organize by type
         relationships_by_type = self._parse_and_organize_relationships(value, record_id)
         
@@ -93,7 +95,7 @@ class RelatedAuthoritiesConverter(BaseConverter):
             if all_relationships:
                 result["isiscb:relatedAuthorities"] = all_relationships
         
-        return result
+        return result     
     
     def _parse_and_organize_relationships(self, value: str, record_id: str) -> Dict[str, List[Dict]]:
         """
@@ -140,11 +142,11 @@ class RelatedAuthoritiesConverter(BaseConverter):
                 # Add authority name if available
                 if "AuthorityName" in entry_dict:
                     relationship["isiscb:authorityName"] = entry_dict["AuthorityName"].strip()
-                    
+                        
                 # Add authority type if available
                 if "AuthorityType" in entry_dict:
                     relationship["isiscb:authorityType"] = entry_dict["AuthorityType"].strip()
-                    
+                        
                 # Add display name if available
                 if "ACRNameForDisplayInCitation" in entry_dict and entry_dict["ACRNameForDisplayInCitation"].strip():
                     relationship["isiscb:displayName"] = entry_dict["ACRNameForDisplayInCitation"].strip()
@@ -152,16 +154,20 @@ class RelatedAuthoritiesConverter(BaseConverter):
                 # Add status if available
                 if "AuthorityStatus" in entry_dict:
                     relationship["isiscb:authorityStatus"] = entry_dict["AuthorityStatus"].strip()
+                    
+                # Add classification code if available
+                if "ClassificationCode" in entry_dict:
+                    relationship["isiscb:classificationCode"] = entry_dict["ClassificationCode"].strip()
                 
                 # Add to appropriate category
                 if normalized_type not in relationships_by_type:
                     relationships_by_type[normalized_type] = []
-                    
+                        
                 relationships_by_type[normalized_type].append(relationship)
-                
+                    
             except Exception as e:
                 logger.warning(f"Error parsing related authority entry for record {record_id}: {entry}. Error: {str(e)}")
-                
+                    
         return relationships_by_type
     
     def _parse_entry(self, entry: str) -> Dict:
@@ -658,6 +664,9 @@ class RelatedAuthoritiesConverter(BaseConverter):
                 "@id": subject["isiscb:authority"]["@id"]
             }
             
+            # Check if this is a Category relationship
+            is_category = subject.get("isiscb:relationshipType") == "Category"
+            
             # Set appropriate type based on authority type
             if "isiscb:authorityType" in subject:
                 authority_type = subject["isiscb:authorityType"]
@@ -667,6 +676,13 @@ class RelatedAuthoritiesConverter(BaseConverter):
                     subject_obj["@type"] = ["schema:Place"]
                 elif authority_type == "Time Period":
                     subject_obj["@type"] = ["dcterms:PeriodOfTime"]
+                elif authority_type == "Person":
+                    subject_obj["@type"] = ["schema:Person", "foaf:Person"]
+                elif authority_type == "Institution":
+                    subject_obj["@type"] = ["schema:Organization", "foaf:Organization"]
+                elif authority_type == "Category Division":
+                    # Special handling for categories
+                    subject_obj["@type"] = ["skos:Concept", "isiscb:Category"]
                 else:
                     subject_obj["@type"] = ["skos:Concept"]
             else:
@@ -686,10 +702,28 @@ class RelatedAuthoritiesConverter(BaseConverter):
                 subject_obj["schema:name"] = f"Subject {authority_id}"
                 subject_obj["name"] = f"Subject {authority_id}"  # For compatibility
             
+            # Add ClassificationCode for Category relationships
+            if is_category or authority_type == "Category Division":
+                if "isiscb:classificationCode" in subject:
+                    # Use the field if it's already been parsed into the relationship object
+                    classification_code = subject["isiscb:classificationCode"]
+                    subject_obj["isiscb:classificationCode"] = classification_code
+                    
+                    # Parse the classification hierarchy
+                    if "-" in classification_code:
+                        # Format like "110-340" - extract main category and subcategory
+                        parts = classification_code.split("-")
+                        if len(parts) == 2:
+                            subject_obj["isiscb:mainCategory"] = parts[0]
+                            subject_obj["isiscb:subCategory"] = parts[1]
+                    else:
+                        # Format like "110" - only main category
+                        subject_obj["isiscb:mainCategory"] = classification_code
+            
             subject_objects.append(subject_obj)
         
-        return subject_objects
-    
+        return subject_objects    
+
     def _process_periodical(self, periodical_relationships: List[Dict]) -> Dict:
         """
         Process periodical or series relationships.
@@ -839,3 +873,112 @@ class RelatedAuthoritiesConverter(BaseConverter):
             institution_obj["name"] = f"{role.capitalize()} {authority_id}"  # For compatibility
         
         return institution_obj
+
+    def _enhance_categories_with_codes(self, result: Dict, category_numbers: str, record_id: str) -> None:
+        """
+        Enhance category subjects with classification codes from CategoryNumbers.
+        
+        Args:
+            result: The result dictionary from _convert_impl
+            category_numbers: The CategoryNumbers string containing classification codes
+            record_id: Record identifier for logging purposes
+        """
+        if not category_numbers or pd.isna(category_numbers) or category_numbers.strip() == "":
+            return
+        
+        # Simple regex to extract classification codes: either single numbers or dash-separated numbers
+        import re
+        code_pattern = re.compile(r'ClassificationCode\s+(\d+(?:-\d+)?)')
+        matches = code_pattern.findall(category_numbers)
+        
+        if not matches:
+            return
+            
+        # Store all found classification codes for logging
+        codes = [code.strip() for code in matches]
+        logger.info(f"Extracted classification codes for record {record_id}: {codes}")
+        
+        # Create a mapping of codes to their structure for easier lookup
+        code_map = {}
+        for code in codes:
+            code_map[code] = {
+                "code": code,
+                "main": code.split("-")[0] if "-" in code else code,
+                "sub": code.split("-")[1] if "-" in code else None
+            }
+        
+        # Now enhance subjects in the result
+        if "dc:subject" in result:
+            subjects = result["dc:subject"]
+            # Handle both single subject and list of subjects
+            if not isinstance(subjects, list):
+                subjects = [subjects]
+                
+            # Identify category subjects by their type
+            for subject in subjects:
+                if isinstance(subject, dict) and "@type" in subject:
+                    subject_types = subject["@type"] if isinstance(subject["@type"], list) else [subject["@type"]]
+                    
+                    # Check if this is a category subject
+                    is_category = False
+                    for subject_type in subject_types:
+                        if "Category" in subject_type or (
+                        "isiscb:authorityType" in subject and 
+                        subject["isiscb:authorityType"] == "Category Division"):
+                            is_category = True
+                            break
+                    
+                    if is_category:
+                        # Get the subject name
+                        subject_name = subject.get("skos:prefLabel", subject.get("name", ""))
+                        
+                        # Find matching codes by iterating through all extracted codes
+                        # Rather than trying to match by name, just assign the code
+                        # This assumes the order of categories in Related Authorities 
+                        # matches the order in CategoryNumbers
+                        if codes:
+                            # Just take the next available code
+                            code = codes.pop(0)
+                            code_info = code_map[code]
+                            
+                            # Add the classification code to the subject
+                            subject["isiscb:classificationCode"] = code
+                            
+                            # Add main and sub category if applicable
+                            if "-" in code:
+                                subject["isiscb:mainCategory"] = code_info["main"]
+                                subject["isiscb:subCategory"] = code_info["sub"]
+                            else:
+                                subject["isiscb:mainCategory"] = code
+        
+        # Also enhance schema:about if present and contains the same subjects
+        if "schema:about" in result and isinstance(result["schema:about"], list):
+            # Just copy the enriched subjects to schema:about
+            result["schema:about"] = result["dc:subject"]
+                                                    
+    def convert_with_categories(self, value: str, record_id: str, category_numbers: Optional[str] = None) -> Dict:
+        """
+        Convert Related Authorities field with category numbers.
+        
+        Args:
+            value: The raw Related Authorities string
+            record_id: The record identifier for logging purposes
+            category_numbers: CategoryNumbers string containing classification codes
+            
+        Returns:
+            Dict with JSON-LD representation of the related authorities
+        """
+        # First convert using the standard method
+        result = self.convert(value, record_id)
+        
+        # Then enhance with category numbers if provided
+        if category_numbers:
+            self._enhance_categories_with_codes(result, category_numbers, record_id)
+            
+        # Debug output to verify changes were made
+        if "dc:subject" in result and isinstance(result["dc:subject"], list):
+            for subject in result["dc:subject"]:
+                if isinstance(subject, dict) and "isiscb:classificationCode" in subject:
+                    logger.info(f"Subject with classification code: {subject.get('name', '')} - {subject['isiscb:classificationCode']}")
+        
+        return result

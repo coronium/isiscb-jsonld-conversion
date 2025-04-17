@@ -4,7 +4,7 @@ Citation conversion pipeline for IsisCB JSON-LD Conversion Project.
 This module orchestrates the conversion of citation records from CSV to JSON-LD format.
 """
 
-import pandas as pd  # Add this import
+import pandas as pd
 import json
 import logging
 import os
@@ -37,10 +37,13 @@ from ..converters.common.types import RecordTypeConverter, RecordNatureConverter
 from ..converters.common.linked_data import LinkedDataConverter  
 from ..converters.common.related_authorities import RelatedAuthoritiesConverter 
 from ..converters.common.related_citations import RelatedCitationsConverter
+from ..converters.common.metadata import MetadataConverter
+from ..converters.common.attributes import AttributesConverter
 from ..converters.citation.title import TitleConverter
 from ..converters.citation.publication_details import PublicationDetailsConverter
 from ..converters.citation.journal_metadata import JournalMetadataConverter
 from ..converters.citation.language import LanguageConverter
+from ..converters.citation.abstract import AbstractConverter
 
 # Import validator
 from ..validators.json_ld_validator import JSONLDValidator, validate_json_ld
@@ -70,7 +73,10 @@ class CitationConverterPipeline:
             'related_citations': RelatedCitationsConverter(),
             'journal_metadata': JournalMetadataConverter(),
             'publication_details': PublicationDetailsConverter(),
-            'language':LanguageConverter()
+            'language':LanguageConverter(),
+            'abstract':AbstractConverter(),
+            'metadata': MetadataConverter(),
+            'attributes': AttributesConverter()
 
             # Add more converters as they are implemented
         }
@@ -124,15 +130,20 @@ class CitationConverterPipeline:
         # Apply linked data converter
         if 'Linked Data' in row:
             jsonld.update(self.converters['linked_data'].convert(row['Linked Data'], record_id))   
-        
-        # Apply Related Authorities converter
+                
+        # Apply Related Authorities converter with category codes
         if 'Related Authorities' in row:
-            jsonld.update(self.converters['related_authorities'].convert(row['Related Authorities'], record_id))
+            category_numbers = row.get('CategoryNumbers', None)
+            jsonld.update(self.converters['related_authorities'].convert_with_categories(
+                row['Related Authorities'], 
+                record_id,
+                category_numbers
+            ))
         
-        # Apply Related Citation converter    
-        if 'Related Citations' in row:
-            jsonld.update(self.converters['related_citations'].convert(row['Related Citations'], record_id))
-         
+        # Apply attributes converter
+        if 'Attributes' in row:
+            jsonld.update(self.converters['attributes'].convert(row['Attributes'], record_id))
+        
         # Apply journal metadata converter
         journal_fields = {
             'Journal Link': row.get('Journal Link', None),
@@ -154,9 +165,30 @@ class CitationConverterPipeline:
         }
         jsonld.update(self.converters['publication_details'].convert(publication_fields, record_id))
         
+        metadata_fields = {
+            'Fully Entered': row.get('Fully Entered', None),
+            'Proofed': row.get('Proofed', None),
+            'SPW checked': row.get('SPW checked', None),
+            'Published Print': row.get('Published Print', None),
+            'Published RLG': row.get('Published RLG', None),
+            'Stub Record Status': row.get('Stub Record Status', None),
+            'Record History': row.get('Record History', None),
+            'Staff Notes': row.get('Staff Notes', None),
+            'Complete Citation': row.get('Complete Citation', None),
+            'Created Date': row.get('Created Date', None),
+            'Modified Date': row.get('Modified Date', None),
+            'Creator': row.get('Creator', None),
+            'Modifier': row.get('Modifier', None),
+            'Dataset': row.get('Dataset', None),
+        }
+        jsonld.update(self.converters['metadata'].convert(metadata_fields, record_id))
+        
         # Apply language converter
         jsonld.update(self.converters['language'].convert(row['Language'], record_id))
             
+        # Apply abstract converter
+        if 'Abstract' in row:
+            jsonld.update(self.converters['abstract'].convert(row['Abstract'], record_id))
         
         # Additional converters will be applied here as they are implemented
         
