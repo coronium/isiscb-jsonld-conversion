@@ -17,29 +17,30 @@ sys.path.insert(0, project_root)
 
 # Now import from the proper module paths
 from src.isiscb.pipeline.citation_pipeline import CitationConverterPipeline
-from src.isiscb.utils.data_loader import load_citation_data, get_paths
+from src.isiscb.pipeline.authority_pipeline import AuthorityConverterPipeline
+from src.isiscb.utils.data_loader import load_citation_data, load_authorities_data, get_paths
 from src.isiscb.converters.common.linked_data import LinkedDataConverter
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger('isiscb_conversion')
 
-def test_single_record_conversion():
-    """Test converting a single record and print the result."""
+def test_single_citation_conversion():
+    """Test converting a single citation record and print the result."""
     # Load sample data
     try:
         # Pass the absolute path to config.yml to data_loader functions
         config_path = os.path.abspath(os.path.join(project_root, 'config.yml'))
         df = load_citation_data(config_path=config_path)
         if df.empty:
-            print("Error: Sample data is empty")
+            print("Error: Sample citation data is empty")
             return
         
         # Get the first record for testing
         sample_record = df.iloc[0]
         record_id = sample_record.get('Record ID', 'unknown')
         
-        print(f"Testing conversion of record: {record_id}")
+        print(f"Testing conversion of citation record: {record_id}")
         
         # Initialize the converter pipeline
         pipeline = CitationConverterPipeline()
@@ -50,15 +51,48 @@ def test_single_record_conversion():
         # Pretty print the result
         print("\nConverted JSON-LD:")
         print(json.dumps(result, indent=2, ensure_ascii=False))
-        print("\nConversion test completed successfully!")
+        print("\nCitation conversion test completed successfully!")
         
     except Exception as e:
-        print(f"Error during test: {str(e)}")
+        print(f"Error during citation test: {str(e)}")
         import traceback
         traceback.print_exc()
 
-def test_file_conversion():
-    """Test converting a file and saving the output."""
+def test_single_authority_conversion():
+    """Test converting a single authority record and print the result."""
+    # Load sample data
+    try:
+        # Pass the absolute path to config.yml to data_loader functions
+        config_path = os.path.abspath(os.path.join(project_root, 'config.yml'))
+        df = load_authorities_data(config_path=config_path)
+        if df.empty:
+            print("Error: Sample authority data is empty")
+            return
+        
+        # Get the first record for testing
+        sample_record = df.iloc[0]
+        record_id = sample_record.get('Record ID', 'unknown')
+        
+        print(f"Testing conversion of authority record: {record_id}")
+        
+        # Initialize the converter pipeline
+        pipeline = AuthorityConverterPipeline()
+        
+        # Convert the single record
+        result = pipeline.convert_row(sample_record)
+        
+        # Pretty print the result
+        print("\nConverted JSON-LD:")
+        print(json.dumps(result, indent=2, ensure_ascii=False))
+        print("\nAuthority conversion test completed successfully!")
+        
+    except Exception as e:
+        print(f"Error during authority test: {str(e)}")
+        import traceback
+        traceback.print_exc()
+
+def test_citation_file_conversion():
+    """Test converting a citation file and saving the output."""
     try:
         # Get paths using absolute path to config.yml
         config_path = os.path.abspath(os.path.join(project_root, 'config.yml'))
@@ -71,47 +105,17 @@ def test_file_conversion():
         
         # Sample filenames to check
         sample_filenames = [
-            "IsisCB citation sample.csv", 
-            "citation_sample_133.csv",
-            "explore 500 sample.csv"
+            # "IsisCB citation sample.csv", 
+            "IsisCB authorities sample 1000.csv",
+            # "explore 500 sample.csv"
         ]
         
         # Look for first available sample file
-        input_file = None
-        for filename in sample_filenames:
-            # Check in data/raw/samples directory
-            potential_path = os.path.join(project_root, "data", "raw", "samples", filename)
-            if os.path.exists(potential_path):
-                input_file = potential_path
-                print(f"Found sample file: {input_file}")
-                break
-                
-            # Check in paths['raw'] directory
-            if 'raw' in paths:
-                raw_path = paths['raw']
-                # If it's a relative path, make it absolute
-                if not os.path.isabs(raw_path):
-                    raw_path = os.path.join(project_root, raw_path)
-                potential_path = os.path.join(raw_path, filename)
-                if os.path.exists(potential_path):
-                    input_file = potential_path
-                    print(f"Found sample file: {input_file}")
-                    break
+        input_file = find_sample_file(sample_filenames, paths)
         
-        # If no sample file found, list available files to help debugging
         if not input_file:
-            print("\nCould not find any sample files. Available files:")
-            for dir_to_check in ["data/raw/samples", "data/raw", paths.get('raw', '')]:
-                check_path = os.path.join(project_root, dir_to_check) if not os.path.isabs(dir_to_check) else dir_to_check
-                if os.path.exists(check_path):
-                    print(f"Files in {check_path}:")
-                    for f in os.listdir(check_path):
-                        print(f"  - {f}")
-                else:
-                    print(f"Directory {check_path} does not exist")
-            
             # Ask user for file path
-            user_path = input("Enter the full path to your CSV file: ").strip()
+            user_path = input("Enter the full path to your CSV citation file: ").strip()
             if os.path.exists(user_path):
                 input_file = user_path
             else:
@@ -121,26 +125,108 @@ def test_file_conversion():
         # Set up output path
         output_dir = os.path.join(project_root, "data", "processed")
         os.makedirs(output_dir, exist_ok=True)
-        output_file = os.path.join(output_dir, "test_output.json")
+        output_file = os.path.join(output_dir, "test_citation_output.json")
         
-        print(f"\nTesting file conversion from {input_file} to {output_file}")
+        print(f"\nTesting citation file conversion from {input_file} to {output_file}")
         
         # Initialize the converter pipeline
         pipeline = CitationConverterPipeline()
         
         # Convert the file
-        results = pipeline.convert_csv_file(str(input_file), str(output_file))
+        results, validation = pipeline.convert_csv_file(str(input_file), str(output_file))
         
-        print(f"Converted {len(results)} records")
+        print(f"Converted {len(results)} citation records")
         print(f"Output saved to: {output_file}")
-        print("\nFile conversion test completed successfully!")
+        print("\nCitation file conversion test completed successfully!")
         
     except Exception as e:
-        print(f"Error during file test: {str(e)}")
+        print(f"Error during citation file test: {str(e)}")
         import traceback
         traceback.print_exc()
+
+def test_authority_file_conversion():
+    """Test converting an authority file and saving the output."""
+    try:
+        # Get paths using absolute path to config.yml
+        config_path = os.path.abspath(os.path.join(project_root, 'config.yml'))
+        paths = get_paths(config_path)
         
+        # Print debugging information
+        print(f"Current working directory: {os.getcwd()}")
+        print(f"Project root: {project_root}")
+        print(f"Paths from config: {paths}")
         
+        # Authority Sample filenames to check
+        sample_filenames = [
+            "IsisCB authorities sample 1000.csv",
+            "authorities_sample.csv"
+        ]
+        
+        # Look for first available sample file
+        input_file = find_sample_file(sample_filenames, paths)
+        
+        if not input_file:
+            # Ask user for file path
+            user_path = input("Enter the full path to your CSV authority file: ").strip()
+            if os.path.exists(user_path):
+                input_file = user_path
+            else:
+                print(f"File not found: {user_path}")
+                return
+            
+        # Set up output path
+        output_dir = os.path.join(project_root, "data", "processed")
+        os.makedirs(output_dir, exist_ok=True)
+        output_file = os.path.join(output_dir, "test_authority_output.json")
+        
+        print(f"\nTesting authority file conversion from {input_file} to {output_file}")
+        
+        # Initialize the converter pipeline
+        pipeline = AuthorityConverterPipeline()
+        
+        # Convert the file
+        results, validation = pipeline.convert_csv_file(str(input_file), str(output_file))
+        
+        print(f"Converted {len(results)} authority records")
+        print(f"Output saved to: {output_file}")
+        print("\nAuthority file conversion test completed successfully!")
+        
+    except Exception as e:
+        print(f"Error during authority file test: {str(e)}")
+        import traceback
+        traceback.print_exc()
+
+def find_sample_file(filenames, paths):
+    """Helper function to find a sample file."""
+    for filename in filenames:
+        # Check in data/raw/samples directory
+        potential_path = os.path.join(project_root, "data", "raw", "samples", filename)
+        if os.path.exists(potential_path):
+            return potential_path
+                
+        # Check in paths['raw'] directory
+        if 'raw' in paths:
+            raw_path = paths['raw']
+            # If it's a relative path, make it absolute
+            if not os.path.isabs(raw_path):
+                raw_path = os.path.join(project_root, raw_path)
+            potential_path = os.path.join(raw_path, filename)
+            if os.path.exists(potential_path):
+                return potential_path
+    
+    # If no sample file found, list available files to help debugging
+    print("\nCould not find any sample files. Available files:")
+    for dir_to_check in ["data/raw/samples", "data/raw", paths.get('raw', '')]:
+        check_path = os.path.join(project_root, dir_to_check) if not os.path.isabs(dir_to_check) else dir_to_check
+        if os.path.exists(check_path):
+            print(f"Files in {check_path}:")
+            for f in os.listdir(check_path):
+                print(f"  - {f}")
+        else:
+            print(f"Directory {check_path} does not exist")
+    
+    return None
+
 def test_linked_data_converter():
     """Test function for the LinkedDataConverter."""
     converter = LinkedDataConverter()
@@ -168,15 +254,16 @@ def test_linked_data_converter():
 
 # Run the test if this file is executed directly
 if __name__ == "__main__":
-    import json
-    import pandas as pd
-    test_linked_data_converter()        
-
-if __name__ == "__main__":
     print("Running IsisCB conversion tests...\n")
     
-    print("\n=== Single Record Conversion Test ===")
-    test_single_record_conversion()
+    # print("\n=== Citation Single Record Conversion Test ===")
+    # test_single_citation_conversion()
     
-    print("\n=== File Conversion Test ===")
-    test_file_conversion()
+    # print("\n=== Authority Single Record Conversion Test ===")
+    # test_single_authority_conversion()
+    
+    # print("\n=== Citation File Conversion Test ===")
+    # test_citation_file_conversion()
+    
+    print("\n=== Authority File Conversion Test ===")
+    test_authority_file_conversion()
