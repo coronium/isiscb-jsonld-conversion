@@ -1,10 +1,160 @@
 # IsisCB JSON-LD Schema Design Documentation
 
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Core Vocabularies and Namespaces](#core-vocabularies-and-namespaces)
+3. [JSON-LD Context](#json-ld-context)
+4. [Core Entity Types](#core-entity-types)
+5. [Citation Entities](#citation-entities)
+6. [Authority Entities](#authority-entities)
+7. [Relationship Structures](#relationship-structures)
+8. [Standard Vocabulary Mapping](#standard-vocabulary-mapping)
+9. [Examples](#examples)
+
 ## Overview
 
-This document explains the schema design for the IsisCB JSON-LD conversion project. The project aims to transform the IsisCB bibliographic and authority data into JSON-LD format while preserving its specialized focus on the history of science, technology, and medicine.
+The IsisCB JSON-LD schema design transforms the IsisCB bibliographic and authority data into JSON-LD format while preserving its specialized focus on the history of science, technology, and medicine. This schema follows a hybrid approach that leverages standard bibliographic vocabularies while maintaining domain-specific attributes through custom vocabulary extensions.
 
-The schema follows a hybrid approach that leverages standard bibliographic vocabularies (Dublin Core, Schema.org, SKOS, BIBO, etc.) while maintaining domain-specific attributes through custom vocabulary extensions.
+This document describes the schema design for version 0.1 (April 22, 2025) of the IsisCB JSON-LD conversion project. As this is a development version, the schema is expected to evolve in future releases.
+
+## Core Vocabularies and Namespaces
+
+The schema uses several established vocabularies to maximize interoperability:
+
+| Prefix | Namespace | Description |
+|--------|-----------|-------------|
+| `dc` | `http://purl.org/dc/elements/1.1/` | Dublin Core Elements - Core bibliographic metadata |
+| `dcterms` | `http://purl.org/dc/terms/` | Dublin Core Terms - Extended bibliographic metadata |
+| `schema` | `http://schema.org/` | Schema.org - General-purpose structured data vocabulary |
+| `bibo` | `http://purl.org/ontology/bibo/` | Bibliographic Ontology - Specialized academic publication terms |
+| `skos` | `http://www.w3.org/2004/02/skos/core#` | Simple Knowledge Organization System - For concepts and controlled vocabularies |
+| `foaf` | `http://xmlns.com/foaf/0.1/` | Friend of a Friend - For people and organizations |
+| `prism` | `http://prismstandard.org/namespaces/basic/2.0/` | Publishing Requirements for Industry Standard Metadata |
+| `vivo` | `http://vivoweb.org/ontology/core#` | VIVO Ontology - For academic and research information |
+| `isiscb` | `https://ontology.isiscb.org/vocabulary/` | IsisCB Custom - Domain-specific extensions |
+
+## JSON-LD Context
+
+The JSON-LD context defines the mapping between terms used in the JSON document and IRIs. Each document includes its context:
+
+```json
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "prism": "http://prismstandard.org/namespaces/basic/2.0/",
+    "vivo": "http://vivoweb.org/ontology/core#",
+    "isiscb": "https://ontology.isiscb.org/vocabulary/",
+    
+    "title": "dc:title",
+    "name": "schema:name",
+    "creator": "dc:creator",
+    "contributor": "dc:contributor",
+    "editor": "schema:editor",
+    "date": "dc:date",
+    "datePublished": "schema:datePublished",
+    "publisher": "dc:publisher",
+    "subject": "dc:subject",
+    "language": "dc:language",
+    "description": "schema:description",
+    "abstract": "dc:abstract",
+    "identifier": "dc:identifier",
+    
+    "recordID": "isiscb:recordID",
+    "recordType": "isiscb:recordType",
+    "recordStatus": "isiscb:recordStatus",
+    "recordNature": "isiscb:recordNature",
+    "mainTitle": "isiscb:mainTitle",
+    "subtitle": "isiscb:subtitle",
+    "yearNormalized": "isiscb:yearNormalized",
+    "publisherLocation": "isiscb:publisherLocation",
+    "extent": "isiscb:extent",
+    "physicalDetails": "isiscb:physicalDetails",
+    "pagesFreeText": "isiscb:pagesFreeText",
+    "completeCitation": "isiscb:completeCitation",
+    "staffNotes": "isiscb:staffNotes",
+    "recordHistory": "isiscb:recordHistory",
+    "namePreferred": "isiscb:namePreferred",
+    "flourishedDate": "isiscb:flourishedDate",
+    "classificationSystem": "isiscb:classificationSystem",
+    "classificationCode": "isiscb:classificationCode",
+    "classificationScheme": "isiscb:classificationScheme",
+    "mainCategory": "isiscb:mainCategory",
+    "subCategory": "isiscb:subCategory",
+    "redirectsTo": "isiscb:redirectsTo",
+    
+    "familyName": "schema:familyName",
+    "givenName": "schema:givenName",
+    "nameSuffix": "schema:nameSuffix",
+    "birthDate": "schema:birthDate",
+    "deathDate": "schema:deathDate",
+    "placeName": "schema:placeName",
+    "addressCountry": "schema:addressCountry",
+    "numberOfPages": "schema:numberOfPages",
+    "position": "schema:position",
+    "isPartOf": "schema:isPartOf",
+    "about": "schema:about",
+    "sameAs": "schema:sameAs",
+    
+    "prefLabel": "skos:prefLabel",
+    "altLabel": "skos:altLabel",
+    "broader": "skos:broader",
+    "narrower": "skos:narrower",
+    "related": "skos:related",
+    "inScheme": "skos:inScheme",
+    "notation": "skos:notation",
+    
+    "edition": "bibo:edition",
+    "pages": "bibo:pages",
+    "pageStart": "bibo:pageStart",
+    "pageEnd": "bibo:pageEnd",
+    "volume": "bibo:volume",
+    "issue": "bibo:issue",
+    "isbn": "bibo:isbn",
+    "issn": "bibo:issn",
+    "shortTitle": "bibo:shortTitle",
+    
+    "isReviewedBy": {
+      "@id": "isiscb:isReviewedBy",
+      "@type": "@id"
+    },
+    "reviews": {
+      "@id": "isiscb:reviews",
+      "@type": "@id"
+    },
+    "includesSeriesArticle": {
+      "@id": "isiscb:includesSeriesArticle",
+      "@type": "@id"
+    },
+    "isPartOf": {
+      "@id": "dcterms:isPartOf",
+      "@type": "@id"
+    },
+    "hasPart": {
+      "@id": "dcterms:hasPart",
+      "@type": "@id"
+    },
+    "references": {
+      "@id": "dcterms:references",
+      "@type": "@id"
+    },
+    "isReferencedBy": {
+      "@id": "dcterms:isReferencedBy",
+      "@type": "@id"
+    },
+    
+    "relatedAuthorities": "isiscb:relatedAuthorities",
+    "relatedCitations": "isiscb:relatedCitations",
+    "linkedData": "isiscb:linkedData",
+    "attributes": "isiscb:attributes"
+  }
+}
+```
 
 ## Core Entity Types
 
@@ -25,9 +175,25 @@ All entities in the system inherit from a common base with these properties:
 - **isiscb:staffNotes**: Notes for staff use
 - **isiscb:recordHistory**: Change history
 
-### Citation Entities
+## Citation Entities
 
 Citations represent bibliographic records for books, articles, theses, etc.
+
+### Citation Types and Type Mapping
+
+| IsisCB Type | JSON-LD Types | 
+|-------------|---------------|
+| Book | `bibo:Book`, `schema:Book`, `isiscb:Book` |
+| Article | `bibo:Article`, `schema:ScholarlyArticle`, `isiscb:Article` |
+| Thesis | `bibo:Thesis`, `schema:Thesis`, `isiscb:Thesis` |
+| Chapter | `bibo:Chapter`, `schema:Chapter`, `isiscb:Chapter` |
+| Review | `bibo:AcademicArticle`, `schema:Review`, `isiscb:Review` |
+| Essay | `bibo:AcademicArticle`, `isiscb:Essay` |
+| Website | `schema:WebSite`, `isiscb:Website` |
+| Conference Proceeding | `bibo:Proceedings`, `isiscb:ConferenceProceeding` |
+| Conference Paper | `bibo:AcademicArticle`, `schema:Article`, `isiscb:ConferencePaper` |
+
+### Citation Properties
 
 - **dc:title**: Title of the work
 - **isiscb:mainTitle/subtitle**: Title components
@@ -50,9 +216,40 @@ Citations represent bibliographic records for books, articles, theses, etc.
 - **bibo:volume/issue**: Journal issue information
 - **isiscb:completeCitation**: Formatted citation
 
-### Authority Entities
+### Journal-Specific Properties
+
+- **schema:isPartOf**: Link to journal authority
+- **bibo:volume**: Journal volume
+- **bibo:issue**: Journal issue
+- **bibo:pages**: Pages free text
+- **bibo:pageStart**: Starting page
+- **bibo:pageEnd**: Ending page
+
+### Thesis-Specific Properties
+
+- **vivo:advisorIn**: Thesis advisor
+- **bibo:degreeGrantor**: Degree-granting institution
+
+## Authority Entities
 
 Authorities represent controlled vocabulary terms, including people, institutions, concepts, etc.
+
+### Authority Types and Type Mapping
+
+| IsisCB Type | JSON-LD Types | 
+|-------------|---------------|
+| Person | `schema:Person`, `foaf:Person`, `isiscb:Person` |
+| Institution | `schema:Organization`, `foaf:Organization`, `isiscb:Institution` |
+| Geographic Term | `schema:Place`, `isiscb:GeographicTerm` |
+| Concept | `skos:Concept`, `isiscb:Concept` |
+| Time Period | `dcterms:PeriodOfTime`, `isiscb:TimePeriod` |
+| Serial Publication | `bibo:Periodical`, `isiscb:SerialPublication` |
+| Event | `schema:Event`, `isiscb:Event` |
+| Creative Work | `schema:CreativeWork`, `isiscb:CreativeWork` |
+| Category Division | `skos:Collection`, `isiscb:CategoryDivision` |
+| Cross-reference | `skos:Collection`, `isiscb:CrossReference` |
+
+### Authority Properties
 
 - **schema:name**: Name of the authority
 - **skos:prefLabel**: Preferred display label
@@ -61,7 +258,7 @@ Authorities represent controlled vocabulary terms, including people, institution
 - **isiscb:classificationSystem**: Classification system used
 - **isiscb:classificationCode**: Classification code
 
-#### Person
+#### Person Properties
 
 - **schema:familyName**: Last name
 - **schema:givenName**: First name
@@ -71,13 +268,13 @@ Authorities represent controlled vocabulary terms, including people, institution
 - **schema:deathDate**: Death year
 - **isiscb:flourishedDate**: Active period
 
-#### Institution
+#### Institution Properties
 
 - **schema:location**: Location information
 - **schema:foundingDate**: Founding date
 - **schema:dissolutionDate**: Dissolution date
 
-#### Concept
+#### Concept Properties
 
 - **skos:broader**: Broader concepts
 - **skos:narrower**: Narrower concepts
@@ -85,19 +282,19 @@ Authorities represent controlled vocabulary terms, including people, institution
 - **skos:inScheme**: Classification scheme
 - **skos:notation**: Classification notation
 
-#### Geographic Term
+#### Geographic Term Properties
 
 - **schema:placeName**: Place name
 - **schema:addressCountry**: Country code
 - **isiscb:geographicEntityType**: Type of place
 
-#### Time Period
+#### Time Period Properties
 
 - **dcterms:temporal**: Temporal description
 - **schema:startDate**: Start date
 - **schema:endDate**: End date
 
-#### Serial Publication
+#### Serial Publication Properties
 
 - **bibo:shortTitle**: Abbreviated title
 - **schema:issn**: ISSN identifier
@@ -149,14 +346,53 @@ Connections to external authorities:
 
 ## Standard Vocabulary Mapping
 
-The schema uses these standard vocabularies:
+### Person Contributors
 
-- **Dublin Core (dc:, dcterms:)** - Core bibliographic metadata
-- **Schema.org (schema:)** - General-purpose structured data
-- **SKOS** - Simple Knowledge Organization System
-- **BIBO** - Bibliographic Ontology
-- **FOAF** - Friend of a Friend vocabulary
-- **Custom IsisCB namespace (isiscb:)** - Domain-specific extensions
+| IsisCB Relationship Type | Primary Property | Equivalent Properties | 
+|--------------------------|------------------|------------------------|
+| Author | `dc:creator` | `schema:author` |
+| Editor | `schema:editor` | (subPropertyOf: `dc:contributor`) |
+| Advisor | `vivo:advisorIn` | (subPropertyOf: `dc:contributor`) |
+| Contributor | `dc:contributor` | |
+| Translator | `schema:translator` | (subPropertyOf: `dc:contributor`) |
+| Committee Member | `vivo:hasCommitteeMember` | (subPropertyOf: `dc:contributor`) |
+| Interviewer | `isiscb:interviewer` | (subPropertyOf: `dc:contributor`) |
+| Guest | `isiscb:guest` | (subPropertyOf: `dc:contributor`) |
+| Creator | `dc:creator` | `schema:creator` |
+| Writer | `schema:author` | (subPropertyOf: `dc:creator`) |
+| Director | `schema:director` | (subPropertyOf: `dc:contributor`) |
+| Producer | `schema:producer` | (subPropertyOf: `dc:contributor`) |
+| Performer | `schema:performer` | (subPropertyOf: `dc:contributor`) |
+
+### Subject Relationships
+
+| IsisCB Relationship Type | Primary Property | Equivalent Properties | 
+|--------------------------|------------------|------------------------|
+| Subject | `dc:subject` | `schema:about` |
+| Category | `dc:subject` | `schema:about` |
+
+### Publication Relationships
+
+| IsisCB Relationship Type | Primary Property | Equivalent Properties | 
+|--------------------------|------------------|------------------------|
+| Periodical | `schema:isPartOf` | `dcterms:isPartOf` |
+| Book Series | `schema:isPartOf` | `dcterms:isPartOf` |
+| Publisher | `dc:publisher` | `schema:publisher` |
+| Distributor | `schema:distributor` | |
+
+### Citation-to-Citation Relationships
+
+| IsisCB Relationship Type | Primary Property | Equivalent Properties | 
+|--------------------------|------------------|------------------------|
+| Is Reviewed By | `isiscb:isReviewedBy` | |
+| Reviews | `isiscb:reviews` | |
+| Includes Series Article | `isiscb:includesSeriesArticle` | |
+| Is Part Of | `dcterms:isPartOf` | `schema:isPartOf` |
+| Has Part | `dcterms:hasPart` | `schema:hasPart` |
+| References | `dcterms:references` | |
+| Is Referenced By | `dcterms:isReferencedBy` | |
+| Succeeds | `dcterms:succeeds` | |
+| Precedes | `dcterms:precedes` | |
 
 ## Examples
 
@@ -220,10 +456,53 @@ The schema uses these standard vocabularies:
 }
 ```
 
-## Schema Benefits
+### Complex Relationship Example
 
-1. **Interoperability** - Uses standard vocabularies for maximum compatibility
-2. **Preservation** - Maintains domain-specific knowledge through extensions
-3. **Flexibility** - Supports diverse entity and relationship types
-4. **Linked Data** - Creates a true web of knowledge with rich relationships
-5. **Scholarly Context** - Preserves specialized information for history of science research
+```json
+{
+  "@context": {...},
+  "@id": "https://data.isiscb.org/citation/CBB001180697",
+  "@type": ["bibo:Article", "schema:ScholarlyArticle", "isiscb:Article"],
+  "dc:title": "Einstein's Approach to Statistical Mechanics",
+  "dc:creator": [
+    {
+      "@id": "https://data.isiscb.org/authority/CBA000023541",
+      "schema:name": "Dauben, Joseph W.",
+      "isiscb:role": "author",
+      "isiscb:position": "1.0"
+    }
+  ],
+  "dc:subject": [
+    {
+      "@id": "https://data.isiscb.org/authority/CBA000144339",
+      "schema:name": "Einstein, Albert",
+      "@type": ["schema:Person", "foaf:Person"]
+    },
+    {
+      "@id": "https://data.isiscb.org/authority/CBA000067891",
+      "schema:name": "Statistical mechanics",
+      "@type": ["skos:Concept"]
+    }
+  ],
+  "schema:isPartOf": {
+    "@id": "https://data.isiscb.org/authority/CBA725764209",
+    "schema:name": "Physics Today",
+    "@type": ["bibo:Periodical"]
+  },
+  "bibo:volume": "45",
+  "bibo:issue": "3",
+  "bibo:pages": "42-48",
+  "dc:date": "1992",
+  "isiscb:relatedCitations": [
+    {
+      "@type": "isiscb:isReviewedBy",
+      "isiscb:relationshipType": "Is Reviewed By",
+      "isiscb:citation": {
+        "@id": "https://data.isiscb.org/citation/CBB761549004"
+      },
+      "isiscb:citationTitle": "Review of Einstein's Approach to Statistical Mechanics",
+      "isiscb:citationType": "Review"
+    }
+  ]
+}
+```
